@@ -1,0 +1,22 @@
+
+
+
+header, footer {
+    padding: 0.5em;
+    color: white;
+    background-color: #555;
+	clear: left;
+}
+
+aside {
+    float: left;
+    width: 25%;
+    margin: 0;
+    padding: 1em;
+}
+
+section{
+    margin-left: 40%;
+    border-left: 1px solid blue;
+    padding: 1em;
+}

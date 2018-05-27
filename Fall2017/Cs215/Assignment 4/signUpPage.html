@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>SignUp Page</title> 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+<link rel="stylesheet" type="text/css" href="main.css">
+<script type="text/javascript" src= "java.js"></script>
+</head>
+
+<body>
+<h1>Sign Up Page</h1>
+<form id="myForm" type="submit" method="post">
+
+	<table>
+		<tr><td ></td><td><label = id = "Fname_err" class= "err" ></label></td></tr>
+		<tr><td >First Name: </td><td> <input = id="Fname" type="text" name="Fname" size="30"/></td></tr>
+
+		<tr><td ></td><td><label = id = lname_err class= "err" ></label></td></tr>
+		<tr><td>Last Name: </td><td> <input id = lname type="text" name="lname" size="30" /></td></tr>
+
+		<tr><td ></td><td><label = id = Dob_err class= "err" ></label></td></tr>
+		<tr><td>Date of birth: </td><td> <input type="date" name="Dob" min ="1979-12-31" size="30" /></td></tr>
+
+		<tr><td ></td><td><label = id = email_err class= "err" ></label></td></tr>
+ 		<tr><td>Email: </td><td> <input  id = email type="text" name="email" size="30" /></td></tr>
+
+ 		<tr><td>Username: </td><td> <input type="text" name="uname" size="30" /></td></tr>
+
+ 		<tr><td ></td><td><label = id = "password_err" class= "err" ></label></td></tr>
+ 		<tr><td>Password: </td><td> <input id = "password" type="password" name="pswd" size="30" /></td></tr>  
+
+		<tr><td ></td><td><label = id = "pswdr_err" class= "err" ></label></td></tr>
+ 		<tr><td>Confirm Password: </td><td> <input id="pswdr" type="password" name="pswdr" size="30" /></td></tr>             
+	</table>
+
+	<p>
+		
+		<button id="button" class="button" type="submit" name="submit">Submit</button>
+
+		<button  class="button" type="submit">Reset</button>	
+	</p>
+</form>
+
+<script type="text/javascript" src="SignUp.js"></script>
+</body>
+</html>

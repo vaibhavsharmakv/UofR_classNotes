@@ -1,0 +1,46 @@
+/////////////// Final PHP Notes/////////////
+
+Q. to submit the form on the same website?
+solution- >
+HTML-> 	Use $_SERVER['PHP_SELF'] as form action
+Php-> if(filter_has_var(INPUT_POST,'button_name')){} 
+
+//////////////
+Security 
+
+client side 
+---------> 
+The regularity check on size of file so someone cant add more html tags then allowed
+
+SQL Injections
+---------->
+ make sure the data is not tampered with before you use it from GET and POST 
+Use post and get can changed in url
+
+mysqli_real_escape_String($_POST[$userEmail]);
+
+HTMLspeacialChars()- wraps the variable around html tags incase attacker adds his own java script
+
+dont use session variable with GET - 
+
+\\\\\\\\\\\\\\\\\\\\
+
+Database Fundamentals
+-conceptual schema -> describes the database design data model
+- physical schema  -> desibes the storage of db
+- external schema -> descibe how diffrent users can use Db with diffrent level of acess
+
+ERD - entity relational databse
+enitity - an object in ERD
+relationship - its the logig between enitities , often explianing whats the connections between two 
+attributes- are used to show entity and relationships
+
+Normalisation - seprating your data in tables and giving a key 
+
+//////////////////////
+4 creterias to evaluate a webste 
+- design 
+- organistaion 
+- usability
+- features
+

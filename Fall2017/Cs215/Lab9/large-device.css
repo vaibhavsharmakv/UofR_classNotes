@@ -1,0 +1,52 @@
+@CHARSET "US-ASCII";
+body {
+    font-family:Verdana,sans-serif;
+    font-size:100%;
+   
+}
+
+header,footer,section,article, aside{
+    border:1px solid green;
+    margin:5px;
+    margin-bottom:15px;
+    padding:8px;
+    background-color:white;
+}
+
+header,footer {
+    clear: both;
+    color:black;background-color:white;margin-bottom:5px;
+}
+
+section {
+    background-color:white;
+    float: left;
+    width: 60%;
+}
+
+aside {
+    background-color:silver;
+    margin-left: 62.5%;
+    width: 35.7%;
+}
+
+footer {
+    float: bottom;
+}
+
+nav {
+    margin-left: 8px;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li{
+	display:inline;
+	margin-right: 2%;
+}
+
+
+

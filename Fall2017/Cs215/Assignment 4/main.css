@@ -1,0 +1,300 @@
+.err
+{
+    color:red; 
+    text-decoration:underline;
+    size: 20px;
+    
+}
+
+
+h1{
+font-family: "Lobster", serif;
+}
+form {
+    border: 3px solid #f1f1f1;
+}
+
+
+input[type=text], input[type=password]  {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    min-width: 390px;
+    box-shadow: 0 3px #ccc;
+    max-height: 40px;
+   margin-top: 8px;
+ display: flex;
+ align-items: flex-start;
+}
+
+
+
+.button{
+background: #0066A2;
+color: white;
+border-style: outset;
+border-color: #0066A2;
+height: 50px;
+width: 100px;
+font: bold 15px arial, sans-serif;
+text-shadow:none;
+
+}
+/* Add a hover effect for buttons */
+
+#b2{
+    margin-left: 75px;  
+}
+
+#btn{
+    margin-left: 95px;
+}
+
+
+
+/* Add padding to containers */
+.container , .secretmessage{
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 50%;
+    }
+}
+
+/* message list page */
+
+* {
+
+ margin: 0;
+ padding: 0;
+ font-family: tahoma, sans-serif;
+ box sizing: border-box;
+}
+
+body {
+ background: #1ddced;
+}
+
+* {
+
+ margin: 0;
+ padding: 0;
+ font-family: tahoma, sans-serif;
+ box sizing: border-box;
+}
+
+body {
+ background: #1ddced;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+
+
+
+
+.contactsbox{
+
+margin-left: 15%;
+    width: 750px;
+    min-width: 390px;
+    height: 30px;
+    padding: 25px;
+    margin: 20px auto
+    box-shadow: 0 3px #ccc;
+    background: #fff;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    margin-top : 5px;
+
+    overflow-x: auto;
+
+}
+.contactsbox::-webkit-scrollbar {
+  width: 10px;
+}
+
+.contactsbox::-webkit-scrollbar-thumb {
+ border-radius: 5px;
+ background: rgba(0,0,0,.1);
+}
+.material-icons{
+
+}
+.btn{
+max-height: 35px;
+border-radius: 50%;
+
+
+
+
+}
+
+.chatbox {
+    margin-left: 15%;
+    width:750px;
+    min-width: 390px;
+    height: 600px;
+    background: #fff;
+    padding: 25px;
+    margin: 20px auto
+    box-shadow: 0 3px #ccc;
+}
+
+.chatlogs {
+ padding: 10px;
+ width: 100%;
+ height: 450px;
+ overflow-x: hidden;
+ overflow-y: scroll;
+}
+
+.chatlogs::-webkit-scrollbar {
+  width: 10px;
+}
+
+.chatlogs::-webkit-scrollbar-thumb {
+ border-radius: 5px;
+ background: rgba(0,0,0,.1);
+}
+
+.chat {
+ display: flex;
+ flex-flow: row wrap;
+ align-items: flex-start;
+ mmargin-bottom: 10px;
+}
+
+.chat .user-photo {
+ width: 50px;
+ height: 50px;
+ background: #ccc;
+ border-radius: 50%;
+ 
+ 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+   
+
+}
+
+.chat .chat-message {
+    width: 70%;
+    padding: 15px;
+    margin: 5px 10px 0;
+    background: #1ddced;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.friend .chat-message {
+    background: #1adda4;
+}
+
+.self .chat-message {
+ background: #1ddced;
+ order: -1;
+
+}
+
+.chat-form {
+ margin-top: 20px;
+ display: flex;
+ align-items: flex-start;
+}
+
+.chat-form textarea {
+ background: #fbfbfb;
+ width: 75%;
+ height: 50px;
+ border: 2px solid #eee;
+ border-radius: 3px;
+ resize: none;
+ padding: 10px;
+ font-size: 18px;
+ color: #333;
+}
+
+.chat-form textarea:focus {
+ background: #fff;
+}
+
+.chat-form textarea::-webkit-scrollbar {
+  width: 10px;
+}
+
+..chat-form textarea::-webkit-scrollbar-thumb {
+ border-radius: 5px;
+ background: rgba(0,0,0,.1);
+}
+
+.chat-form button {
+ background: #1ddced;
+ padding: 5px 15px;
+ font-size: 30px;
+ color: #fff;
+ border: none;
+ margin: 0 10px;
+ border-radius: 3px;
+ box-shadow: 0 3px 0 #0eb2c1;
+ cursor: pointer;
+
+
+ -webkit-transition: background .2s ease;
+ -moz-transition: background .2s ease;
+ -o-transition: background .2s ease;
+
+}
+
+.chat-form button:hover {
+ background: #13c8d9;
+}﻿
+
+
+
+
+
+
+

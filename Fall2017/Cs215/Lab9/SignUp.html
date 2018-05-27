@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SignUp Page</title> 
+<script type="text/javascript" src="validate.js"> </script>  
+<style>
+.err_msg{ color:red;}
+</style>
+
+</head>
+
+<body>
+
+<h1>Sign Up Page</h1>
+<form action="SignUp.php" id="SignUp" method="post" enctype="multipart/form-data">    
+<table>
+<tr><td></td><td><label id="email_msg" class="err_msg"></label></td></tr>
+<tr><td>Email: </td><td> <input type="text" name="email" size="30" /></td> </tr>
+ 
+<tr><td></td><td><label id="uname_msg" class="err_msg"></label></td></tr>          
+<tr><td>Username: </td><td> <input type="text" name="uname" size="30" /></td></tr>
+
+<tr><td></td><td><label id="photo_msg" class="err_msg"></label></td></tr>
+<tr><td>Photo: </td><td> <input type="file"  name="fileToUpload" id="fileToUpload"></td></tr>
+
+ 
+</table><br />
+<input type="submit" value="SignUp" />
+<input type="reset" value="Reset" />
+</form>
+
+<script type = "text/javascript"  src = "SignUp-r.js" ></script>
+ 
+<p><a href = "index.html">Back to index page</a></p>
+
+
+</body>
+</html>
+
