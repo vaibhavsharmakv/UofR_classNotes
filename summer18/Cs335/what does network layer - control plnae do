@@ -1,0 +1,75 @@
+Path -> the sequence of routers from the source to destination
+
+	Good path  
+		- low cost 
+		- Fastest 
+		- Low congestion
+
+Graph -> a set of 2 or more nodes connected together with edge and a vertex represented as G = (V,E)
+	- vertext -> the node
+	- edge -> the distance 
+
+Routing algorithms 
+	- Global vs decentralized 
+		- Link state alogrithms are global algortihms as they have infromations about all the other routers. It uses Djkistra
+		- Decentralised algorithm is one where router only have information about it's neighboring routers.
+	Static vs dynamic 
+		- Numbers of router, path and cost to router does not change over time in static but in dynamic it changes with time
+
+Djkistra Algorithm 
+	N' = {u} // the initial node is u, N' is the set of 
+				nodes in the graph
+	
+	/*
+	All the neighboring nodes of u will get the distance 
+	but the nodes which are not ajacent to u will be marked infinity
+
+	*/
+	for each node in N' except u  
+
+		if V is adjacent to u 
+			then D(v) = c(u,v)
+		else 
+			D(v) = 9999
+	End for 
+
+	While all nodes are not in N' do   // while   	      									 N'.size = N
+
+		find w with minimum D(w) such that w is not in N'
+			add w to N' 
+			for each adjacent node to v to w such that v is not in N' do 
+				update D(V) = min(D(v) + d(w) + c(w,v))
+			End for 
+	End while
+
+	/*
+	Complexity of the algorthm = O(N^2)
+
+	*/
+
+Routing protocols
+ 	- Problems
+ 		-  A router cannot store all destinations in the routing table 
+ 		- All routers in the worls don't run the same algorithms
+ 	- Solution -> Routing protocols
+	 	 Problems can be fixed by Autonomous system in which each router have information about the other router in the same domain and each router runs the same algorithm
+
+Intra - Autonomous system routing 
+	- OSPF - Open shortest path first 
+	- RIP - ROuting information protocol
+	- IGRP - Interior gateway Routing protocol
+	* these 3 are also knows as Interior Gateway Protocol
+
+	OSPF -> 
+		- Uses Djkistra algorithm 
+		- also called minimum hop routing because the distance to each node is 1 which make its shortest path and least cost path same 
+		- Security -> All messages are autheticated 
+		- hierarchical -> Used in large domains
+
+	BGP -> Border gateway Protocol
+		- It holds all the routers together
+	Two parts 
+		- eBGP - external -  
+
+
+

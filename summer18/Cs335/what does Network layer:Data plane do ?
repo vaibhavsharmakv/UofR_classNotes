@@ -1,0 +1,88 @@
+- It's a host-to-host commuincation 
+- Datagram -> Segment + header info 
+
+2 main functions in netowrk layer 
+	- Forwarding -> How the traffic flows from router input link to correct output link
+	- Routing -> how the traffic flows from source to destination
+		- uses routing algorithms
+
+2 main things 
+
+	- Data plane -> determines how the datgram arrving on router input port is forwared to router output port
+		- Hardware implementation
+	- Control plane -> determine how the datagram is routed among the routers from source host to destination host
+		- Software implementation
+		- 2 main aproaches 
+			- Traditional Routing algorithm 
+				- Each and every router interact with control plane 
+			- Software defined networking
+				- A controller interacts with control agents
+
+Router Architecture 
+	- Control plane -> software implementation, Routing processor
+	- Data plane
+		- switch fabric 
+			- tranfer packts from input to apropriate output ports
+			- swicthing rate -> the rate at which packets can be transfered from input to output
+			- 3 types of swicthing 
+				- memory 
+				- Bus 
+				- crossbar
+		- input port
+			- link layer protocol -> link layer
+			- line termination -> physical layer
+			- lookup & queueing
+				- lookup -> forwarding table is consuted to figure out which out port will the incoming datgram go
+				- queueing -> incase of bull buffer or high traffic, queueing the datagrams
+		- output port
+			- line transmission 
+			- link layer protocol 
+			- datagramm buffer & scheduling discipline 
+				- datagram buffer -> this buffer is required when the switching rate is faster then transmission rate 
+				- schedule discipline -> choose from queued datagrams based on priority 
+
+Fregmentation and Reassembly 
+	- Problem -> the size of datagram can be higher then the size that can me transmitted 
+	- Solution -> Divide datagram in smaller parts and assemble it again, called fregementation 
+		- Datagrams ip headers bits are used at the destination to reassemble them
+	Example - 4000 bytes datagram 
+		MTU = 1500 bytes
+		20 bytes for header
+
+	Solution - 1480(20) + 1480(20) + 1040(20) = 4000(60)
+
+IP Adressing 
+	- Interface -> Connection between host/router and physical link
+		- Ip adressing is 32 bits
+	- Subnet 
+		- the connected interfaces when the router is disconnected forms a subnet 
+	- CIDR - classless inter domain routing
+		- subnet adressing
+		- subnet part - host part 
+		- a.b.c.d/x
+	- static/ DHCP ip 
+		- DHCP -> dynamic host control protocol
+			- DHCP server assigns an ip automaticaly to the upcoming client 
+		- Why dhcp ?
+			- limited public ip's
+			- efficient(saves time)
+			- lease can be renewed
+		- how does it work ?
+			- Host find's a DHCP server 
+			- DHCP server responds
+			- HOST request ip address
+			- DHCP server sends ID adress
+	- NAT - network adress Translation 
+		- every source ip, port# have a translation pair in local domain saved in NAT translation table 
+		- Incoming traffic 
+			- only affect dest# and source # stays same
+			- NAT ip adress, port#  --> source ip adress, new port#
+		Outgoing traffic 
+			- source Ip, port # --> Nat ip , new port #
+
+- IPV6
+ the header size is 40 byte
+ 
+
+
+

@@ -1,0 +1,19 @@
+What does transport layer do ?
+netowork layer vs transport layer ?
+UDP vs TCP 
+MUX ?
+DMUX ?
+MUX vs DMUX
+how are sockets identified ?
+connectionless udp ?
+connection-oriented tcp?
+UDP ?
+udp segment structure ?
+	- source port#
+	- destination port#
+	- length -> the size of data and header in bytes
+	- checksum 
+	- data 
+	- *32 bits -> 4 bytes
+- UDP error checking ?
+

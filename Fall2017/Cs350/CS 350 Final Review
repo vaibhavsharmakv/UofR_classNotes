@@ -1,0 +1,42 @@
+CS 350 Final Review
+///////////////////
+4 evalation creterias
+-readability - designer concern
+-readability - implementer concern
+-writibility - designer concern
+-Cost - implementer concern
+Abstarct data type ,user defined type - designer view 
+
+
+///////////
+chomsky level 0-4
+ambiguity
+syntax and symentics
+attrributed grammer
+
+//////////
+once we define the language - then we look at implementation
+
+ - grammer tree
+ - left most
+ - right most 
+ - top down
+ - reccursive - lr1 
+ - bottom up 
+ - shift reduced 
+
+explain shift and reduced - further explian inout and output - ex whats on stack 
+
+ - parser
+
+/////////////
+ Chapter 6: Data type
+              Primitive
+              Strings
+              User defined types
+              Array 
+              Associative array
+          
+              Union
+              Lists
+              Pointer

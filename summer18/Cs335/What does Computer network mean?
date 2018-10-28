@@ -1,0 +1,14 @@
+Consist of 3 main things 
+	- Connected devices -> Host and end Users
+	- Communication links -> 
+		- How the devices are connected 
+		- Twisted copper wire, Coaxile cable 
+		- Optical fiber
+	- Packet Switches ->
+		- ROuters and link layer switches 
+
+	Why are protocols used ?
+	-> Billion od devcies and large internet, Protocols help define rules to be followed
+
+	what is network Edge ?
+		- End systems/ Host in which appplication run

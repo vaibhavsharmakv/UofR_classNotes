@@ -1,0 +1,74 @@
+// PROLOG Solution to the assignment 5
+//   a) find the length of a list
+domains
+
+tot_list=symbol*
+  
+predicates
+
+length(tot_list)
+findlength(tot_list,integer)
+
+  
+clauses
+
+length(X):-
+findlength(A,Counter),
+write("\nThe Length Of List is : "),
+write(Counter).
+  
+findlength([],A):-
+A=0.
+  
+findlength([A|Tail],Counter):-
+findlength(Tail,Previous),
+Counter = Previous + 1.
+
+//   b) find the average of a list of numbers
+
+average( List, Avg ):-
+sum( List, Sum ),
+len( List, Length),
+( Length > 0
+-> Average is Sum / Length
+; Avg is 0
+).
+
+//  c) combine two sorted lists into a sorted list
+
+domains
+a = integer
+b = integer*
+  
+predicates
+merge(b,b,b)
+  
+clauses
+merge([],[],[]).
+  
+merge([A],[],[A]).
+  
+merge([],[B],[B]).
+  
+merge([A|List_1],[B|List_2],[A|List]) :-
+A <= B,!,
+merge(List_1,[B|List_2],List).
+  
+merge([A|List_1],[B|List_2],[B|List]) :-
+merge([A|List_1],List_2,List).
+
+// d) reverse a list.
+
+domains
+lis=integer*
+predicates
+rev_list(lis,lis)
+rev(lis,lis,lis)
+clauses
+  
+rev_list(Input_list,Output_list):-
+rev(Input_list,[],Output_list).
+rev([],Output_list,Output_list).
+
+rev([Head|Tail],List_1,List_2):-
+rev(Tail,[Head|List_1],List_2).
