@@ -8,10 +8,20 @@
 
 import UIKit
 
-class todoTableViewCell: UITableViewCell {
+protocol TodoCellDelegate {
+    func didRequestDelete(_ cell:todoTableViewCell)
+    func didRequestComplete(_ cell:todoTableViewCell)
+    
+}
+
+class todoTableViewCell: UITableViewCell{
+   
+    
 
     @IBOutlet weak var TableCellImage: UIImageView!
-    
+
+    var delegate:TodoCellDelegate?
+
     @IBOutlet weak var TableCellTittle: UILabel!
     
     @IBOutlet weak var TableCellPriority: UILabel!
@@ -26,11 +36,22 @@ class todoTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+   
     
     @IBAction func itemComplete(_ sender: UIButton) {
+        if let delegateObject = self.delegate{
+            delegateObject.didRequestComplete(self)
+        }
     }
     
     @IBAction func itemDelete(_ sender: UIButton) {
+        if let delegateObject = self.delegate{
+            delegateObject.didRequestDelete(self)
+        }
     }
+    
+  
+    
+   
     
 }

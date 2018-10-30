@@ -16,6 +16,7 @@
 		A858C4FE2185A995003988C9 /* todoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A858C4FD2185A995003988C9 /* todoTableViewCell.swift */; };
 		A858C5002185A9C1003988C9 /* todoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A858C4FF2185A9C1003988C9 /* todoTableViewController.swift */; };
 		A858C50A2186166F003988C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A858C4D9218147BF003988C9 /* ViewController.swift */; };
+		A858C50C2187D560003988C9 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A858C50B2187D560003988C9 /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		A858C4FD2185A995003988C9 /* todoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoTableViewCell.swift; sourceTree = "<group>"; };
 		A858C4FF2185A9C1003988C9 /* todoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoTableViewController.swift; sourceTree = "<group>"; };
 		A858C50721861554003988C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A858C50B2187D560003988C9 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				A858C4FF2185A9C1003988C9 /* todoTableViewController.swift */,
 				A858C4FD2185A995003988C9 /* todoTableViewCell.swift */,
 				A858C4D9218147BF003988C9 /* ViewController.swift */,
+				A858C50B2187D560003988C9 /* secondViewController.swift */,
 			);
 			path = Assignment2;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A858C50A2186166F003988C9 /* ViewController.swift in Sources */,
+				A858C50C2187D560003988C9 /* secondViewController.swift in Sources */,
 				A858C4FA218534FD003988C9 /* todoItem.swift in Sources */,
 				A858C4FE2185A995003988C9 /* todoTableViewCell.swift in Sources */,
 				A858C4FC2185576F003988C9 /* DataManager.swift in Sources */,

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate, UIPickerViewDelegate, UIPickerViewDataSource{
+class ViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate, UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate{
     
 
     // mark : outlets from front End
@@ -21,13 +21,20 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
     // mark : View Did Load
     override func viewDidLoad() {
         super.viewDidLoad()
+        taskName.delegate = self
+        notes.delegate = self
+        dueDate.delegate = self
+        
+        
         choosePriority()
         toolbarForPicker()
         
-     //  let newItem = 
-         
-       
+        NotificationCenter.default.addObserver(self, selector: #selector(ViewController.keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(ViewController.keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
         
+        
+        
+       
         // Do any additional setup after loading the view, typically from a nib.
     }
     // mark: Priority picker variables
@@ -35,16 +42,54 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
     var chosenPriority: String?
     var imageData:Data!
     var priorityData:String!
-    var dueDataData:String!
+    var dueDateData:String!
+    
+    
+    
+    
+   
+    
+    
+    
     
     
   
     
     @IBAction func saveTodoItem(_ sender: Any) {
-  
         
+        let photoPngData = photoImageView.image?.pngData()!
+        let photoString = photoPngData?.base64EncodedString()
+        dueDateData = dueDate.text
         
+        let newItem = TodoItem(tittle: taskName.text! ,
+                               completed: false,
+                               photo: photoString!,
+                               notes: notes.text!,
+                               dateCreated: Date(),
+                               DueDate: dueDateData,
+                               priority: priorityData,
+                               itemId: UUID())
+        newItem.addItem()
         
+       navigationController?.popToRootViewController(animated: true)
+       
+        
+       
+        
+      
+        // saving the photo
+        //encoding
+        /*  let x = selectedImage.pngData()!
+         let photoString = x.base64EncodedString()
+         
+        //decoding
+         
+         let y1 = y.pngData()!
+         photoImageView.image = UIImage(data: y1)
+         // Dismiss the picker.
+         */
+        
+       
     }
     
 }
@@ -60,8 +105,40 @@ extension ViewController{
      taskName.resignFirstResponder()
         return true
     }
-    func textFieldDidEndEditing(_ textField: UITextField) {
+   
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesBegan(touches, with: event)
+        self.view.endEditing(true)
+    }
+   /*
+    func updateTextView(notification:Notification){
+        let userInfo = notification.userInfo!
+        let KeyboardEndFrameScreenCordinates = (userInfo[UIResponder.keyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
         
+        let KeyboardFrame = self.view.convert(KeyboardEndFrameScreenCordinates, to: view.window)
+        if notification.name == Notification.Name.UIKeyboardWillHide{
+            
+        }
+    
+    }*/
+    
+    @objc func keyboardWillShow(notification: Notification) {
+        if let keyboardSize = (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
+            print("notification: Keyboard will show")
+            if self.view.frame.origin.y == 0{
+                self.view.frame.origin.y -= keyboardSize.height
+            }
+        }
+        
+    }
+    
+    @objc func keyboardWillHide(notification: Notification) {
+        if let keyboardSize = (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
+            if self.view.frame.origin.y != 0 {
+                self.view.frame.origin.y += keyboardSize.height
+            }
+        }
     }
     
 }
@@ -145,15 +222,16 @@ extension ViewController{
             fatalError("Expected a dictionary containing an image, but was provided the following: \(info)")
         }
         
+        func getImageFromBase64(base64:String) -> UIImage {
+            let data = Data(base64Encoded: base64)
+            return UIImage(data: data!)!
+            
+            
+        }
+
         // Set photoImageView to display the selected image.
        photoImageView.image = selectedImage
-       /* let x = selectedImage.pngData()!
-        print("starting")
-        print(x)
-        print("ending")
-        photoImageView.image = UIImage(data: x)
-        */
-        // Dismiss the picker.
+      
         dismiss(animated: true, completion: nil)
     }
     
@@ -173,33 +251,12 @@ extension ViewController{
     }
     
     
-}
-
-
-extension ViewController{
     
-
-/*
- extension ViewController{
- 
- 
- 
- @IBAction func saveTodoItem(_ sender: Any) {
- 
- 
- 
- 
- var newItem = TodoItem.init(tittle: taskName.text!, completed: false, photo: imageData, notes: notes.text!, dateCreated: Date(), priority: <#T##String#>, itemId: <#T##UUID#>)
- 
- 
- 
- 
- }
- 
- }
- 
-*/
+    
 }
+
+
+
 
 
 

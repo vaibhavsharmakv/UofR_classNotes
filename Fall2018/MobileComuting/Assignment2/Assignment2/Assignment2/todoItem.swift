@@ -16,16 +16,13 @@ struct TodoItem: Codable {
     var photo:String
     var notes:String?=nil
     var dateCreated:Date
-    enum DueDate {
-        case dueDate(Date)
-        case Immediate(String)
-        case empty(String)
-    }
+    var DueDate:String
+     
     var priority:String
     var itemId:UUID
     
    
-    
+
     func addItem(){
         DataManager.save(self, with: itemId.uuidString)
     }

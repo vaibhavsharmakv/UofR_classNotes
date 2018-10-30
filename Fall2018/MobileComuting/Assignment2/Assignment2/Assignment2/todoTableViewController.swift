@@ -8,12 +8,33 @@
 
 import UIKit
 
-class todoTableViewController: UITableViewController {
+class todoTableViewController: UITableViewController, TodoCellDelegate {
+   
+   
+    
+    var passTitle:String = ""
+    var passDueDate:String = ""
+    var passNotes:String = ""
+    var passImage:UIImage? = nil
+    var passPriority:String = ""
 
     var todoItem:[TodoItem]!
+    
+    override func viewWillAppear(_ animated:Bool) {
+         super.viewWillAppear(animated)
+        didLoad()
+    }
+    
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         didLoad()
+        
+        
+        
+      //  prepare(for: UIStoryboardSegue, sender: ){
+            
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -28,6 +49,30 @@ class todoTableViewController: UITableViewController {
         tableView.reloadData()
     }
 
+    func didRequestDelete(_ cell: todoTableViewCell) {
+        if let indexPath = tableView.indexPath(for: cell) {
+            todoItem[indexPath.row].deleteItem()
+            todoItem.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .automatic)
+        }
+    }
+    
+    func didRequestComplete(_ cell: todoTableViewCell) {
+            if let indexPath = tableView.indexPath(for: cell) {
+                var todoItems = todoItem[indexPath.row]
+                todoItems.taskComplete()
+               cell.TableCellTittle.attributedText = strikeThroughText(todoItems.tittle)
+            }
+            
+        }
+    
+    func strikeThroughText (_ text:String) -> NSAttributedString {
+        let attributeString: NSMutableAttributedString =  NSMutableAttributedString(string: text)
+        attributeString.addAttribute(NSAttributedString.Key.strikethroughStyle, value: 1, range: NSMakeRange(0, attributeString.length))
+        
+        return attributeString
+    }
+    
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -43,18 +88,104 @@ class todoTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellId", for: indexPath) as! todoTableViewCell
 
+        cell.delegate = self
         // Configure the cell...
         let item = todoItem[indexPath.row]
-       cell.TableCellTittle.text = item.tittle
-        if item.priority == "High" {
-            cell.TableCellPriority.text =  "!!!"
-            cell.TableCellPriority.textColor = UIColor.red
-        }
+       
+       
+           
+            
+           cell.TableCellTittle.text = item.tittle
+            
+            //
+          
+            func getImageFromBase64(base64:String) -> UIImage {
+                let data = Data(base64Encoded: base64)
+                return UIImage(data: data!)!
+            }
+            
+            //
+          let imageData = item.photo
+            let imageRecived = getImageFromBase64(base64: imageData)
+            cell.TableCellImage.image = imageRecived
         
+            
+            
+            if item.priority == "High" {
+                cell.TableCellPriority.text =  "!!!"
+                cell.TableCellPriority.textColor = UIColor.red
+            }
+            if item.priority == "Medium"{
+                cell.TableCellPriority.text =  "!!"
+                cell.TableCellPriority.textColor = UIColor.red
+            }
+            if item.priority == "Low"{
+                cell.TableCellPriority.text =  "!"
+                cell.TableCellPriority.textColor = UIColor.red
+            }
+            
+            passTitle = item.tittle
+            passDueDate = item.DueDate
+            passNotes = item.notes!
+            passImage = imageRecived
+            passPriority = item.priority
+            
+            
+        if item.completed{
+            cell.TableCellTittle.attributedText = strikeThroughText(item.tittle )
+        }
+           
+            
+       //  performSegue(withIdentifier: , sender: self)
+       
         
         return cell
+        
     }
     
+    
+    
+    
+    
+    
+    /*override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let item = todoItem[indexPath.row]
+        
+        func getImageFromBase64(base64:String) -> UIImage {
+            let data = Data(base64Encoded: base64)
+            return UIImage(data: data!)!
+        }
+        
+        //
+        let imageData = item.photo
+        let imageRecived = getImageFromBase64(base64: imageData)*/
+        
+   
+        
+    //}
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    
+            super.prepare(for: segue, sender: sender)
+            print("not even here")
+            if(segue.identifier == "showtask") {
+            
+            if let secondViewController = segue.destination as? secondViewController{
+            print("here")
+            secondViewController.passImage1 = passImage!
+            secondViewController.passNotes1 = passNotes
+            secondViewController.passPriority1 = passPriority
+            secondViewController.passTitle1 = passTitle
+            secondViewController.passDueDate1 = passDueDate
+            
+            }else{print("nope")
+                
+                }
+        
+        }
+    }
+    
+   
 
     /*
     // Override to support conditional editing of the table view.
@@ -102,3 +233,4 @@ class todoTableViewController: UITableViewController {
     */
 
 }
+
