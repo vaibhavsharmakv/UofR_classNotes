@@ -1,0 +1,80 @@
+Script started on Fri Sep 20 11:07:09 2019
+Script on hercules[21]% demo
+HALshell> This is a test
+Reversed words : test a is This 
+HALshell> to see what happens
+Reversed words : happens what see to 
+HALshell> It is a success
+Reversed words : success a is It 
+HALshell> lo
+Reversed words : lo 
+HALshell> val   e shutdown
+Reversed words : shutdown 
+
+HALshell: terminating ...
+Script on hercules[22]% valgrind --leak-check=yes ./dem o
+==24892== Memcheck, a memory error detector
+==24892== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==24892== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==24892== Command: ./demo
+==24892== 
+HALshell> exit
+Reversed words : exit 
+==24892== Mismatched free() / delete / delete []
+==24892==    at 0x4A05B66: operator delete[](void*) (vg_replace_malloc.c:515)
+==24892==    by 0x401205: CleanUpCArray(char**, int) (in /home/hercules/s/sharma3v/cs330/lab2/demo)
+==24892==    by 0x400F70: main (in /home/hercules/s/sharma3v/cs330/lab2/demo)
+==24892==  Address 0x4c21210 is 0 bytes inside a block of size 8 alloc'd
+==24892==    at 0x4A06A2E: malloc (vg_replace_malloc.c:270)
+==24892==    by 0x401158: ConvertToC(std::string*, int) (in /home/hercules/s/sharma3v/cs330/lab2/demo)
+==24892==    by 0x400F4A: main (in /home/hercules/s/sharma3v/cs330/lab2/demo)
+==24892== 
+HALshell> shut down
+Reversed words : shudown 
+HALshell> e SHI UTDOWN
+Reversed words : SHUTDOWN 
+HALshell> shutdown
+Reversed words : shutdown 
+
+HALshell: terminating ...
+==24892== 
+==24892== HEAP SUMMARY:
+==24892==     in use at exit: 0 bytes in 0 blocks
+==24892==   total heap usage: 29 allocs, 29 frees, 583 bytes allocated
+==24892== 
+==24892== All heap blocks were freed -- no leaks are possible
+==24892== 
+==24892== For counts of detected and suppressed errors, rerun with: -v
+==24892== ERROR SUMMARY: 4 errors from 1 contexts (suppressed: 8 from 6)
+Script on hercules[23]% exit[K[K[K[Kvalgrind --leak-check=yes ./dem o
+==24972== Memcheck, a memory error detector
+==24972== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==24972== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==24972== Command: ./demo
+==24972== 
+HALshell> ^[[A    shutdown
+Reversed words : shutdown 
+==24972== Mismatched free() / delete / delete []
+==24972==    at 0x4A05B66: operator delete[](void*) (vg_replace_malloc.c:515)
+==24972==    by 0x401205: CleanUpCArray(char**, int) (in /home/hercules/s/sharma3v/cs330/lab2/demo)
+==24972==    by 0x400F70: main (in /home/hercules/s/sharma3v/cs330/lab2/demo)
+==24972==  Address 0x4c21290 is 0 bytes inside a block of size 8 alloc'd
+==24972==    at 0x4A06A2E: malloc (vg_replace_malloc.c:270)
+==24972==    by 0x401158: ConvertToC(std::string*, int) (in /home/hercules/s/sharma3v/cs330/lab2/demo)
+==24972==    by 0x400F4A: main (in /home/hercules/s/sharma3v/cs330/lab2/demo)
+==24972== 
+
+HALshell: terminating ...
+==24972== 
+==24972== HEAP SUMMARY:
+==24972==     in use at exit: 0 bytes in 0 blocks
+==24972==   total heap usage: 8 allocs, 8 frees, 174 bytes allocated
+==24972== 
+==24972== All heap blocks were freed -- no leaks are possible
+==24972== 
+==24972== For counts of detected and suppressed errors, rerun with: -v
+==24972== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 8 from 6)
+Script on hercules[24]% exit
+exit
+
+Script done on Fri Sep 20 11:09:25 2019

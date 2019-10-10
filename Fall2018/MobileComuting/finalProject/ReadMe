@@ -1,0 +1,11 @@
+To Install the project -> 
+
+$ cd your-project directory
+$ pod init
+
+This will add the prerequisite libraries needed to get Firebase up and running in your iOS app, along with Google Analytics for Firebase. A list of currently available pods and subspecs is provided below. These are linked in feature specific setup guides as well.
+Install the pods and open the .xcworkspace file to see the project in Xcode.
+
+$ pod install
+$ open checkTheList.xcworkspace
+

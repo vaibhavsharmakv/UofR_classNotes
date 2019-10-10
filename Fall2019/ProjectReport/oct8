@@ -1,0 +1,11 @@
+observer pattern solves two problems
+- creates consistency between all the models and views 
+- flexibility - easy to add new views
+
+  MVC 
+  - Analyze the state of data 
+  - make decision based on state of data 
+
+  composition and agregation when connecting classes !!
+
+  

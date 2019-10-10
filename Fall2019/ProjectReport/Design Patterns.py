@@ -1,0 +1,2 @@
+- Use Observer 
+- structural/Creational 
