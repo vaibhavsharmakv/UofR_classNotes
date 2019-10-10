@@ -8,4 +8,40 @@ observer pattern solves two problems
 
   composition and agregation when connecting classes !!
 
-  
+kv - understand object and subject properly !!
+
+ /// OCT 10 ///
+
+ Never let views talk to each other ???
+
+ Exersice - improve the class diagram to include diffrent oberservers
+
+ !!! Provide the class diagram and explain - how man views and how many models and how are observer pattern is working 
+
+	- explain data types
+	- data architectures
+	- funtional prototypes 
+	- very very specific 
+	- have to give her update program and display function
+	- how the subject and object is changing 
+	- dont need to give info about 
+		- notify 
+		- delete 
+		- register
+	- must provide for each concerete observer 
+		- update
+		- display function 
+		- getters and setters
+
+----------------------------------------
+for tuesday 
+	- activity diagram 
+	- 2 activity diagram for most complex use cases 
+	- MVC architecture 
+	- show her how DJANGO MVT works 
+	- View vs UI
+	- class diagram for observer pattern 
+	
+
+
+
