@@ -1,0 +1,14 @@
+[]    - Empty list 
+[E|T] - E = Element 
+		T = Tail 
+[A,B,C]
+	=
+	[A]
+	[B,C]
+
+// Look for how a tree can be expressed as a list
+
+// what is logic expression, how can we tell something is in the list -- prolog
+
+English - IF E is the first element of the LIST, then it is a memeber of the list
+
