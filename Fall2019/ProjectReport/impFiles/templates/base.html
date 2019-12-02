@@ -1,0 +1,102 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Detecting Diabetic Retinopathy</title>
+  <!-- Bootstrap core CSS -->
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}"rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="{% static 'css/scrolling-nav.css'%}" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+
+
+<!-- Navigation -->
+
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Detecting Diabetic Retinopathy</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/">Home</a>
+          </li>
+          {%block homepage_navbar%}
+          {%endblock%}
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="https://github.com/vaibhavsharmakv/detetcting-diabetic-ratinpathy-using-AI">Github</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <header class=" bg-danger text-white">
+    <div class="container text-center">
+      {%block content_div_header%}
+      {%endblock%}  
+    </div>
+  </header>
+
+
+  {%block section_id%}
+  {%endblock%}
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+        {%block  about_result%}
+          <h2>Diabetic Retinopathy </h2>
+          <p class="lead">TDiabetic retinopathy (DR), also known as diabetic eye disease, is a medical condition in which damage occurs to the retina due to diabetes mellitus. It is a leading cause of blindness. Diabetic retinopathy affects up to 80 percent of those who have had diabetes for 20 years or more. Diabetic retinopathy often has no early warning signs. Retinal (fundus) photography with manual interpretation is a widely accepted screening tool for diabetic retinopathy, with performance that can exceed that of in-person dilated eye examinations.</p>
+          <p class="lead">This website detects Referrable Diabetic Retinopathy (RDR) using Deep Learning and was built with fastai. </p>
+         {% endblock %}
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{%static 'vendor/jquery/jquery.min.js'%}"></script>
+  <script src="{%static 'vendor/bootstrap/js/bootstrap.bundle.min.js'%}"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="{% static 'vendor/jquery-easing/jquery.easing.min.js'%}"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="{% static 'js/scrolling-nav.js' %}"></script>
+  
+<script>
+// Add the following code if you want the name of the file appear on select
+console.log("hello")
+$(".custom-file-input").on("change", function() {
+  var fileName = $(this).val().split("\\").pop();
+  $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+});
+
+document.getElementById("customFile").onchange = function() {
+    document.getElementById("form").submit();
+    document.reload();
+};
+
+</script>
+</body>
+
+
+</html>
+

@@ -1,0 +1,33 @@
+{%extends "base.html"%}
+
+
+{%block homepage_navbar%}
+    <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#Result">Result</a>
+    </li>
+{%endblock%}
+
+{%block section_id%}
+    <section id="Result">
+{%endblock%}
+
+{% block content_div_header%}
+   <form id = "form" method='POST'  enctype='multipart/form-data'>
+        {% csrf_token %}
+        <div class="custom-file mb-3">
+            <input type="file" class="custom-file-input" id="customFile" required id="id_image" name="image" alt="Submit Form">
+            <label class="custom-file-label" for="customFile" >Upload Another File</label>
+        </div>
+    <form>
+{%endblock%}
+
+{% block about_result%}
+
+    <h2 class="text-justify">Results : </h2>
+    {%for item in resultObj.predictions %}
+    <p class ="lead">  {{item.class}} : {{item.prob  }} </p>
+    {% endfor %}
+    <br>
+    <h3 class="text-justify"> Image : </h3>
+    <img src = "{{image.url}}" height = 500 width =500/>
+{%endblock%}

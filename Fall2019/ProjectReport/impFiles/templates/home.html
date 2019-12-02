@@ -1,0 +1,30 @@
+{%extends "base.html"%}
+
+{% load crispy_forms_tags %}
+
+{%block homepage_navbar%}
+<li class="nav-item">
+    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+</li>
+{%endblock%}
+
+{%block section_id%}
+    <section id="about">
+{%endblock%}
+
+
+{%block content_div_header%}
+    <form id = "form" method='POST'  enctype='multipart/form-data'>
+        {% csrf_token %}
+        <div class="custom-file mb-3">
+            <input type="file" class="custom-file-input" id="customFile" required id="id_image" name="image" alt="Submit Form">
+            <label class="custom-file-label" for="customFile" >Click here to Upload file..</label>
+        </div>
+    <form>
+{%endblock %}
+
+
+
+
+
+ 

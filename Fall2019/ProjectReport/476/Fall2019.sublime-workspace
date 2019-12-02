@@ -1,0 +1,897 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"p",
+				"P"
+			],
+			[
+				"class",
+				"class"
+			],
+			[
+				"pri",
+				"primaryStage"
+			],
+			[
+				"char",
+				"charAt"
+			],
+			[
+				"set",
+				"setRotate"
+			],
+			[
+				"tic",
+				"tickY"
+			],
+			[
+				"ti",
+				"tickX"
+			],
+			[
+				"Tl",
+				"TLength"
+			],
+			[
+				"cen",
+				"centerX"
+			],
+			[
+				"clock",
+				"clockRadius"
+			],
+			[
+				"tex",
+				"TextField"
+			],
+			[
+				"sce",
+				"scene2"
+			],
+			[
+				"pr",
+				"primaryStage"
+			],
+			[
+				"m",
+				"mobject"
+			],
+			[
+				"future",
+				"furturePositionlocation"
+			],
+			[
+				"target",
+				"targetfinal"
+			],
+			[
+				"ta",
+				"targetfinal"
+			],
+			[
+				"ma",
+				"maxForce"
+			],
+			[
+				"sub",
+				"subtract"
+			],
+			[
+				"marg",
+				"margin-left\tproperty"
+			],
+			[
+				"side",
+				"s-side1"
+			],
+			[
+				"si",
+				"s-side1"
+			],
+			[
+				"g",
+				"getPerimeter"
+			],
+			[
+				"ge",
+				"getArea"
+			],
+			[
+				"tri",
+				"triObj"
+			],
+			[
+				"side3",
+				"side3"
+			],
+			[
+				"sid",
+				"side"
+			],
+			[
+				"ca",
+				"catch"
+			],
+			[
+				"T",
+				"Triangle"
+			],
+			[
+				"s",
+				"side3"
+			],
+			[
+				"sdi",
+				"side3"
+			],
+			[
+				"get",
+				"getArea"
+			],
+			[
+				"rect",
+				"rectObj"
+			],
+			[
+				"a",
+				"abstract"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"margin-",
+				"margin-top\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"fon",
+				"font-style\tproperty"
+			],
+			[
+				"getr",
+				"getArrivalTime"
+			],
+			[
+				"Geor",
+				"GregorianCalendar"
+			],
+			[
+				"StringB",
+				"StringBuilder"
+			],
+			[
+				"S",
+				"String"
+			],
+			[
+				"Strin",
+				"Stringy"
+			],
+			[
+				"test",
+				"testAccounts"
+			],
+			[
+				"id",
+				"idMethods"
+			],
+			[
+				"w",
+				"withdraw"
+			],
+			[
+				"prin",
+				"printMenu"
+			],
+			[
+				"Va",
+				"validateID"
+			],
+			[
+				"se",
+				"setId"
+			],
+			[
+				"sh",
+				"Ship"
+			],
+			[
+				"pa",
+				"passengerCapacity"
+			],
+			[
+				"login",
+				"loginATM"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"lo",
+				"loginATM"
+			],
+			[
+				"f",
+				"for\tfor"
+			],
+			[
+				"at",
+				"AtmWithAccount"
+			],
+			[
+				"Atm",
+				"AtmWithAccount"
+			],
+			[
+				"mo",
+				"getMonthlyInterestRate"
+			],
+			[
+				"In",
+				"Interest"
+			],
+			[
+				"de",
+				"deposit"
+			],
+			[
+				"A",
+				"Account"
+			],
+			[
+				"var",
+				"var3"
+			],
+			[
+				"doubl",
+				"double"
+			],
+			[
+				"mar",
+				"markovFlag"
+			],
+			[
+				"ar",
+				"array"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"z",
+				"zUnit"
+			],
+			[
+				"Se",
+				"SecondVector"
+			],
+			[
+				"sec",
+				"SecondVector"
+			],
+			[
+				"rel",
+				"religious"
+			],
+			[
+				"them",
+				"themselves"
+			],
+			[
+				"organ",
+				"organisation"
+			],
+			[
+				"organi",
+				"organization"
+			],
+			[
+				"cha",
+				"challenges"
+			],
+			[
+				"wor",
+				"workplace"
+			],
+			[
+				"su",
+				"successfull"
+			],
+			[
+				"segr",
+				"Segregation"
+			],
+			[
+				"expe",
+				"Expectations"
+			],
+			[
+				"Sex",
+				"Sexuality"
+			],
+			[
+				"mas",
+				"Masculanity"
+			],
+			[
+				"long",
+				"longitude"
+			],
+			[
+				"motion",
+				"Motion"
+			],
+			[
+				"evol",
+				"Evolutionary"
+			],
+			[
+				"relation",
+				"Relationship"
+			],
+			[
+				"prod",
+				"product"
+			],
+			[
+				"pro",
+				"programmer"
+			],
+			[
+				"deve",
+				"development"
+			],
+			[
+				"develop",
+				"developers"
+			],
+			[
+				"De",
+				"development"
+			],
+			[
+				"str",
+				"string"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"ios",
+				"iostream\tstandard header"
+			],
+			[
+				"inte",
+				"intentionaly"
+			],
+			[
+				"proce",
+				"Procedures"
+			],
+			[
+				"label",
+				"label"
+			],
+			[
+				"Paper",
+				"Paper"
+			],
+			[
+				"Guid",
+				"guidlines"
+			],
+			[
+				"stan",
+				"Standards"
+			],
+			[
+				"Organ",
+				"organisation"
+			],
+			[
+				"It",
+				"IT"
+			],
+			[
+				"redu",
+				"Reduncancy"
+			],
+			[
+				"Mitiga",
+				"mitigate"
+			],
+			[
+				"controls",
+				"Controls"
+			],
+			[
+				"name",
+				"name"
+			],
+			[
+				"read",
+				"readEmployee"
+			],
+			[
+				"print",
+				"printEmployee"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"left",
+				"margin-left"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"echo",
+				"echo\techo \"…\""
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"filet",
+				"filter_var"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"for",
+				"form\tTag"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"mes",
+				"message"
+			],
+			[
+				"Reply",
+				"Reply"
+			],
+			[
+				"reply",
+				"replyMessage"
+			],
+			[
+				"if",
+				"if\tif …"
+			],
+			[
+				"message",
+				"messageId"
+			],
+			[
+				"US",
+				"user"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "exam questions\n\n- Who walks through the door ?\nSolutiom - I do\n\n- who in the pop culture can be moral and shit ?\nSolution - katniss everdeen\n\n------\nEssay \n\n\n\n",
+			"file": "/Users/kayvee/Uofr/UofR-classNotes/Fall2019/Philosphy/exam questions",
+			"file_size": 141,
+			"file_write_time": 132168569500944311,
+			"settings":
+			{
+				"buffer_size": 159,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "exam questions"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2019"
+	],
+	"file_history":
+	[
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2019/AI/dfs.py",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2019/AI/stateSpace",
+		"/Users/kayvee/Desktop/dfs.py",
+		"/Users/kayvee/Desktop/bfs.py",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2019/Philosphy/MidtermSokution",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2019/RLST/oct16",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2019/Philosphy/midterm",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2019/ProjectReport/oct8",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2019/Philosphy/the clock and lottery example",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2019/ProjectReport/Design Patterns.py",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2019/Hellotron/sep25.py",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2019/ProjectReport/sep26.py",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2019/Philosphy/A1.py",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2019/Hellotron/Lab2/ notes",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2019/Hellotron/Lab1/main.cpp",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2019/Hellotron/sep13.py",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall 2019/Hellotron/sep11.py",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall 2019/ProjectReport/sep12.py",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall 2019/Philosphy/sep10.py",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall 2019/ProjectReport/sep10.py",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall 2019/RLST/Sep9.py",
+		"/Users/kayvee/Desktop/DES",
+		"/Users/kayvee/Desktop/finalExam.java",
+		"/Users/kayvee/Uofr/UofR-classNotes/Winter2019/Cs203/Assignment4/BallPane.java",
+		"/Users/kayvee/Uofr/UofR-classNotes/Winter2019/Cs203/Assignment4/ClockAnimation.java",
+		"/Users/kayvee/Uofr/UofR-classNotes/Winter2019/Cs203/Assignment4/AnalogClock.java",
+		"/Users/kayvee/Uofr/UofR-classNotes/Winter2019/Cs203/Assignment4/ShowLine.java",
+		"/Users/kayvee/Uofr/UofR-classNotes/Winter2019/Cs203/Assignment4/ClockPane.java",
+		"/Users/kayvee/Code/MyJavaFx.java",
+		"/Users/kayvee/Code/testClock.java",
+		"/Users/kayvee/Code/ClockPane.java",
+		"/Users/kayvee/Code/ClockPane.class",
+		"/Users/kayvee/Desktop/Cs203-Assignment4/ClockPane.java",
+		"/Users/kayvee/Desktop/question1.py",
+		"/Users/kayvee/Desktop/question2.py",
+		"/Users/kayvee/Desktop/mobject.py",
+		"/Users/kayvee/Desktop/montecarlo.py",
+		"/Users/kayvee/Uofr/UofR-classNotes/Winter2019/Cs290/FinalExam.py",
+		"/Users/kayvee/Uofr/UofR-classNotes/Winter2019/Cs290/lab4-rev1/forceBall.py",
+		"/Users/kayvee/Code/Python/test.py",
+		"/Users/kayvee/Uofr/UofR-classNotes/Winter2019/Cs203/Assignment3/test.java",
+		"/Users/kayvee/Code/zehra/index.html",
+		"/Users/kayvee/Code/zehra/javaScript.js",
+		"/Users/kayvee/Code/zehra/main.css",
+		"/Users/kayvee/Desktop/My CS100 Home Page.htm",
+		"/Users/kayvee/Uofr/UofR-classNotes/Winter2019/Cs203/Assignment2/Flights.java",
+		"/Users/kayvee/Uofr/UofR-classNotes/Winter2019/Cs203/Assignment2/split.java",
+		"/Users/kayvee/Uofr/UofR-classNotes/Winter2019/Cs203/Assignment2/Question3B/Test.java",
+		"/Users/kayvee/Uofr/UofR-classNotes/Winter2019/Cs203/Assignment2/Test.java",
+		"/Users/kayvee/Uofr/UofR-classNotes/Winter2019/Cs203/Assignment2/Stringy.java",
+		"/Users/kayvee/Uofr/UofR-classNotes/Winter2019/Cs203/Assignment2/Account.java",
+		"/Users/kayvee/Uofr/UofR-classNotes/Winter2019/Cs203/Assignment2/TestShips.java",
+		"/Users/kayvee/Uofr/UofR-classNotes/Winter2019/Cs203/Assignment2/one.java",
+		"/Users/kayvee/Desktop/lab3/index.html",
+		"/Users/kayvee/Desktop/lab3/classes/vect.py",
+		"/Users/kayvee/Code/Eclipse/Snippets/Markov.java",
+		"/Users/kayvee/Code/Eclipse/Snippets/myClass1.java",
+		"/Users/kayvee/Code/Eclipse/Snippets/test.java",
+		"/Users/kayvee/Code/Eclipse/Snippets/myClass2.java",
+		"/Users/kayvee/Code/Eclipse/Snippets/sample.java",
+		"/Users/kayvee/Code/Eclipse/Snippets/Assignment1",
+		"/Users/kayvee/Uofr/UofR-classNotes/Winter2019/Cs290/force.py",
+		"/Users/kayvee/Uofr/UofR-classNotes/Winter2019/Cs290/vector.py",
+		"/Users/kayvee/Desktop/plkaknd.html",
+		"/Users/kayvee/Code/Scripts/index.html",
+		"/Users/kayvee/Code/Scripts/webScraping.js",
+		"/Users/kayvee/PowerShell_transcript.Vaibhavs-MBP.PEu8QDTe.20190106233039.txt",
+		"/Users/kayvee/Desktop/co-op/Position Overview:",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2018/Discrete Computal Structure/finalReview",
+		"/Users/kayvee/Desktop/finalExam.txt",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2018/WomenStudies/final/finalExam.applescript",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2018/MobileComuting/finalExam.applescript",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2018/software project/final.applescript",
+		"/Users/kayvee/Desktop/finalProject/howTo",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2018/WomenStudies/paperDraft",
+		"/Users/kayvee/Uofr/Projects/CheckTheList/CheckTheList/CheckTheList/ListTableViewController.swift",
+		"/Volumes/SIRI/Assn4/question3[latest].cpp",
+		"/Users/kayvee/Uofr/UofR-classNotes/winter-18/Engl110/essay2.cpp",
+		"/Users/kayvee/Uofr/UofR-classNotes/winter-18/Engl110/Essay1",
+		"/Users/kayvee/Uofr/UofR-classNotes/winter-18/Engl110/Lecture2-jan10.cpp",
+		"/Users/kayvee/Uofr/UofR-classNotes/winter-18/Engl110/Lecture1-jan8.cpp",
+		"/Users/kayvee/Uofr/UofR-classNotes/winter-18/Engl110/Compare Contrast Cheet sheet.doc",
+		"/Users/kayvee/Uofr/UofR-classNotes/winter-18/Engl110/englishEssay.odt",
+		"/Users/kayvee/Desktop/cs455 Presentation/test1@test.com -> New account -> kv@kv.com  :: Rea",
+		"/Users/kayvee/Uofr/Projects/CheckTheList/CheckTheList/CheckTheList/ListViewController.swift",
+		"/Users/kayvee/Uofr/Projects/CheckTheList/CheckTheList/CheckTheList/List.swift",
+		"/Users/kayvee/Uofr/Projects/CheckTheList/CheckTheList/CheckTheList/Base.lproj/Main.storyboard",
+		"/Users/kayvee/Desktop/CheckTheList/CheckTheList/TabTableViewController.swift",
+		"/Users/kayvee/Uofr/Projects/CheckTheList/CheckTheList/CheckTheList.xcodeproj/project.pbxproj",
+		"/Users/kayvee/Uofr/Projects/CheckTheList/CheckTheList/Podfile",
+		"/Users/kayvee/Uofr/Projects/cs372/Cs372/Documentation/Todo",
+		"/Users/kayvee/Uofr/Projects/cs372/Cs372/test-FrontEnd/frontEnd.html",
+		"/Users/kayvee/Uofr/Projects/cs372/Cs372/test-FrontEnd/untitled",
+		"/Users/kayvee/Uofr/Projects/cs372/Cs372/kv/firebasetest.html",
+		"/Users/kayvee/Uofr/Projects/cs372/Cs372/firebasetest.html",
+		"/Users/kayvee/Uofr/Projects/cs372/Cs372/Home.html",
+		"/Users/kayvee/Uofr/Projects/cs372/Cs372/Result.html",
+		"/Users/kayvee/Uofr/Projects/cs372/Cs372/sqlDatabase.json",
+		"/Users/kayvee/Code/learningPath/bootstrap4/bootstrap.html",
+		"/Users/kayvee/Uofr/Projects/CheckTheList/CheckTheList/BackEndDesign.applescript",
+		"/Users/kayvee/Code/learningPath/Flask_Blog/flaskBlog.py",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2018/MobileComuting/Assignment2/Assignment2/Assignment2/DataManager.swift",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2018/software project/oct9.html",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2018/WomenStudies/midterm",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2018/MobileComuting/Milestone 2: Project Design (Wednesday Oct 17): 10",
+		"/Users/kayvee/Desktop/c/Cs310/Assignment 2/Answer1.cpp",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2018/WomenStudies/oct9.html",
+		"/Users/kayvee/Desktop/c/testrun.cpp",
+		"/Users/kayvee/Code/ios/FoodTracker/FoodTracker/Info.plist",
+		"/Users/kayvee/Desktop/co-op/Job Descroption",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2018/MobileComuting/- sensors and graphics",
+		"/Users/kayvee/Uofr/UofR-classNotes/winter-18/Project",
+		"/Users/kayvee/Uofr/UofR-classNotes/winter-18/cs280/Major Project.cpp",
+		"/Users/kayvee/Uofr/UofR-classNotes/Fall2018/MobileComuting/Sep6.html",
+		"/Users/kayvee/Desktop/css page.css",
+		"/Users/kayvee/Desktop/lecture13-august2.py",
+		"/Users/kayvee/Desktop/Cs335.sublime-workspace",
+		"/Users/kayvee/Uofr/UofR-classNotes/summer18/lecture10- july23.py",
+		"/Users/kayvee/Uofr/UofR-classNotes/summer18/lecture6-July16.py",
+		"/Users/kayvee/Uofr/UofR-classNotes/summer18/lecture5-july12.py",
+		"/Users/kayvee/Uofr/UofR-classNotes/summer18/lecture7-july17.py",
+		"/Users/kayvee/Uofr/UofR-classNotes/summer18/lecture3-July10.py",
+		"/Users/kayvee/Desktop/mamli.py",
+		"/Users/kayvee/Code/comtia security +/RiskManagement.py",
+		"/Users/kayvee/Code/comtia security +/Risk management/lecture1",
+		"/Users/kayvee/Code/C++/Cs115/main.cpp",
+		"/Users/kayvee/KV-Finances/Schdeuling",
+		"/Users/kayvee/KV-Finances/Morning Routine"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/kayvee/Uofr/UofR-classNotes/Fall2019"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/kayvee/Uofr/UofR-classNotes/Fall2019/Philosphy/exam questions",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 159,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								158,
+								158
+							]
+						],
+						"settings":
+						{
+							"auto_name": "exam questions",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 52.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 237.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Java/JavaC.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Uofr/UofR-classNotes/Winter2019/Cs290/vector.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 261.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
