@@ -1,11 +1,23 @@
 Paragraph 1: identify and describe a ritual (D1)
 	- Ritual {
 		Food Buffet,
+		visit and ritual 
+		why its a ritual 
+
+
 
 	} 
 	- Prof{
 		Nye not required, 
 		just your own observation
+		Did I describe a ritual ? how nye look at it 
+
+	}
+	- kv{
+		- why it is a ritual 
+		- what makes it a ritual 
+		- what exactly is it
+		- how Nye defines a ritual 
 
 	}
 Paragraph 2: analyze of D1 using your theory
@@ -18,6 +30,10 @@ Paragraph 2: analyze of D1 using your theory
 		- gives people sense of pride 
  
 		imp ** site Nyes work 
+
+		- indiviual learn by working in a group 
+		- change over time and becomes better 
+		- gets a better image in a group of people in society
 	}
 	- Questions {
 		- Does everything have to be supported by Nye
@@ -28,6 +44,7 @@ Paragraph 2: analyze of D1 using your theory
 	- Prof{
 		Nye is must,
 		cite Nye 
+
 		 
 	}
 

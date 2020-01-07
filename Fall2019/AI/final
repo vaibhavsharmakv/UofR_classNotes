@@ -1,0 +1,83 @@
+--------------------------------------------
+
+Chapters of text to be covered:
+
+Chapter 1. 
+[]  Introduction + history of AI
+[]  Basic concepts and notions of AI
+
+Chapter 2.
+[]  Propositional logic
+[]  Predicate logic
+[]  Proofs
+
+Chapter 3.
+[]  State space and search
+[]  Data driven and goal-driven search
+[]  Depth-first search (DFS)
+[]  Breadth-first search (BFS)
+[]  AND/OR graphs
+
+Chapter 4. 
+[X]  Heuristic search
+[X]  Hill climbing   (Section 4.1, Dynamic Programming is NOT covered)
+[X]  Best-first search
+[X]  Heuristics
+[X]  Heuristics in games
+[X]  Admissibility, Monotonicity, and informedness
+[X]  A* algorithm
+
+  Possible topics 
+  * Different heuristic and when to use which  --- Done 
+  * Definition and difference between admissible, informed and monitonic --- Done 
+  * Concpet space search  --- Done
+  * S search and candidate elimination search --- Done 
+
+
+Chapter 8:
+[X]  Sections 8.0-8.2 ONLY
+[X]  Architecture of expert systems, expert system shell
+[X]  Explanation in expert systems
+[X]  Connection between PROLOG and expert systems
+
+    Possible topics 
+    * architecture desing --- Done
+    * connectin to prolog --- Done 
+    * theory question for sure --- Done
+
+
+Chapter 10:
+[x]machine learning ?? With proff
+[x]supervised and unsupervised learning
+[x]version space search
+[x] ID3
+[x]sequential covering (PRISM)
+[x]cluster analysis (K-means)
+        - intra and inter cluster
+
+  Possible topics 
+  * Id3 vs prism = supervised vs unsupervised --- Done
+  * practise id3 and PRISM probbability --- Done
+
+
+
+Chapter 11
+[]Section 11.2 ONLY
+[]Perceptron learning
+  Possible topics 
+  * Perceptron question
+
+Chapter 14
+[]  Sections 14.2 and 14.3 ONLY
+[]   Binary resolution
+[]    - unit preference strategy
+[]    - linear input form strategy
+
+
+PROLOG 
+    - program (you can write very simple program)
+    - working principles (binary resolution, DFS)
+
+Note: The above list may not be 100% complete.  Please refer to both
+      text and class notes.
+ 
