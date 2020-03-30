@@ -1,0 +1,64 @@
+Lab 2 -------------------------------------------------------
+make check - to produce output, compile and run 
+make clean - recursively deletes output files
+
+
+Write a Makefile for these files with the following specifications:
+	Use gcc instead of g++
+		- done
+	Provide the options to debug the program later.
+		- (--ggdb)
+	Include at least one variable in your Makefile.
+		- any variable 
+	Add a clean target that will remove the executable, any core files, and any .o files
+		-> rm -f *.o demo
+
+GDB
+	break linenumber -> to enter a break point on a line
+	list -> to show next 10 lines 
+	run -> to get to first breakpooint
+
+malloc on line 15 
+free on line 28
+
+Lab 3 -------------------------------------------------------
+try sticking to using strncpy(cString, cString2, 100); 
+
+in compare c function 
+- if both are identical then that means there is no difference 
+-  ! in front of the function will make it return positive 
+
+there will be times where its asking for char*, when we see it -> translate it into looking at it as a character array
+char* is basicually ab array of characters making it a string 
+
+	- strncpy will help here to convert it into c string to eliminate the compiler error that it is expecting c string 
+
+strdup will also have a free !!
+
+token returned from strtok ois only an adress of the first character
+	- it also add null terminiator in places of deliminator
+
+Dynamnic arrays of C strings -> very close to what we need to do in the exersice 
+
+strdup - 2 steps 
+	- step 1 -> allocate memory for the strinf 
+	- step 2 ->  then it copy the string into that allocation and then it returns the starting adress of the that c string 
+	- !!! must send in a C string 
+
+the basic idea with the example in the class is 
+	- str dup makes c string in form of array and the adreess is saved in an array of 3 
+
+also add the free for stdup
+
+saved an image in photos IOS
+
+for the assignment ----
+	- Store the answer to the following questions as comments at the beginning of main.cpp:
+What is Dr. Hilderman's code tokenizing based on (ie. what delimeter(s) separate(s) his words)?
+	- spaces
+
+What are two reasons why his tokens are strings instead of c strings
+	- readability 
+	- dynamic size 
+
+

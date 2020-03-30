@@ -1,0 +1,7 @@
+HI THERE
+
+If you are seeing this, 
+it means you are reading from the file
+junk.txt
+
+Bye!

@@ -1,0 +1,33 @@
+Script started on Thu Feb  6 22:40:56 2020
+[1m[7m%[27m[1m[0m                                                                                                                       
+ 
+]7;file://archos/Users/kayvee/Uofr/UofR-classNotes/Winter2020/Cs330/Labs/lab4
+[0m[27m[24m[Jkayvee@archos lab4 % [K[?2004hppwp  ../demo[?2004l
+
+HALshell> ls  pwd
+/Users/kayvee/Uofr/UofR-classNotes/Winter2020/Cs330/Labs/lab4
+HALshell> ls
+HALmod.cpp	HALmod.o	demo		main.cpp
+HALmod.h	Makefile	lab4.log	main.o
+HALshell> cp main.cpp main.bak
+HALshell> ls
+HALmod.cpp	HALmod.o	demo		main.bak	main.o
+HALmod.h	Makefile	lab4.log	main.cpp
+HALshell> rm main.bak
+HALshell> l exit
+Error on Execvp
+HALshell> ls
+HALmod.cpp	HALmod.o	demo		main.cpp
+HALmod.h	Makefile	lab4.log	main.o
+HALshell> exit
+Error on Execvp
+HALshell> lo
+
+HALshell: terminating ...
+                                                                                                                    
+ 
+]7;file://archos/Users/kayvee/Uofr/UofR-classNotes/Winter2020/Cs330/Labs/lab4
+[0m[27m[24m[Jkayvee@archos lab4 % [K[?2004heexit[?2004l
+
+
+Script done on Thu Feb  6 22:41:59 2020

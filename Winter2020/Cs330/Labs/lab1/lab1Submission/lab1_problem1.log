@@ -1,0 +1,62 @@
+Script started on Wed Jan 15 11:32:58 2020
+Script on hercules[21]% c[KScript on hercules[21]% cs_clients CK[KL115
+a049856 a049825 a049832 a049833 a049834 a049835 a049836 a049837 a049838 a049839 a049840 a049841 a049842 a049843 a049844 a049845 a049846 a049847 a049848 a049849 a049850 a049851 a049852 a049853 a049854 a049855 
+Script on hercules[22]% ssh a049848
+Warning: Permanently added 'a049848,142.3.168.48' (RSA) to the list of known hosts.
+sharma3v@a049848's password: 
+Log in at: Wed Jan 15 11:33:58 CST 2020
+
+a049848[21]% l[Kc[Kcd cs330
+a049848[22]% mkdir testscript
+mkdir: cannot create directory ‘testscript’: File exists
+a049848[23]% cd m[K[K[Krm-[K -r testscript/
+a049848[24]% mkdir testscript
+a049848[25]% cd testscript
+a049848[26]% l[Kls
+a049848[27]% c[Kmkdir good bad ugly
+a049848[28]% ls
+[0m[38;5;27mbad[0m/  [38;5;27mgood[0m/  [38;5;27mugly[0m/
+a049848[29]% cd good
+a049848[30]% touch one two three
+a049848[31]% ls -l
+total 0
+-rw------- 1 sharma3v csugrd 0 Jan 15 11:35 one
+-rw------- 1 sharma3v csugrd 0 Jan 15 11:35 three
+-rw------- 1 sharma3v csugrd 0 Jan 15 11:35 two
+a049848[32]% mkdir BAK
+a049848[33]% cp {one, two, three} BAK
+Missing }.
+a049848[34]% cp one two [K[K[K, [K two ht[K[Kthre e BAK
+a049848[35]% cd [K[Kls BAL[KK
+one  three  two
+a049848[36]% cd BAK
+a049848[37]% ls
+one  three  two
+a049848[38]% ls -l
+total 0
+-rw------- 1 sharma3v csugrd 0 Jan 15 11:37 one
+-rw------- 1 sharma3v csugrd 0 Jan 15 11:37 three
+-rw------- 1 sharma3v csugrd 0 Jan 15 11:37 two
+a049848[39]% cd ..
+a049848[40]% ls -l[K[K[K[Kcp BAK/[K[K[K[K-r BAL[KK /../UGLY[K[K[K[Kugly
+cp: cannot create directory ‘/../ugly’: Permission denied
+a049848[41]% cp -r BAK /../ugly[K[K[K[K[K[K[K[K..[K[K![K~[K../ugly/
+a049848[42]% ls ../ugly/
+[0m[38;5;27mBAK[0m/
+a049848[43]% ls
+[0m[38;5;27mBAK[0m/  one  three  two
+a049848[44]% cd ..
+a049848[45]% ls
+[0m[38;5;27mbad[0m/  [38;5;27mgood[0m/  [38;5;27mugly[0m/
+a049848[46]% cd good
+a049848[47]% rm -r BAK
+a049848[48]% ls
+one  three  two
+a049848[49]% exit
+logout
+[3;J[H[2Jif: Expression Syntax.
+Connection to a049848 closed.
+Script on hercules[23]% exit
+exit
+
+Script done on Wed Jan 15 11:42:52 2020

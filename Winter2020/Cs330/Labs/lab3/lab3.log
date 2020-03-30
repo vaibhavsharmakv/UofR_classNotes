@@ -1,0 +1,1635 @@
+Script started on Fri Jan 24 14:37:36 2020
+[1m[7m%[27m[1m[0m                                                                                ]7;file://archos/Users/kayvee/Desktop[0m[27m[24m[Jkayvee@archos Desktop % [K[?2004hlls -l  l  lls /usr/bin[?2004l
+2to3-					machine
+2to3-2.7				mail
+AssetCacheLocatorUtil			mailq
+AssetCacheManagerUtil			mailx
+AssetCacheTetheratorUtil		make
+BuildStrings				makeinfo
+CpMac					malloc_history
+DeRez					man
+GetFileInfo				manpath
+IOAccelMemory				mcxquery
+MergePef				mcxrefresh
+MvMac					mddiagnose
+ResMerger				mdfind
+Rez					mdimport
+RezDet					mdls
+RezWack					mdutil
+SafeEjectGPU				memory_pressure
+SetFile					mesg
+SplitForks				mg
+UnRezWack				mib2c
+a2p					mib2c-update
+a2p5.18					mig
+actool					mkbom
+addftinfo				mkdep
+afclip					mkfifo
+afconvert				mklocale
+afhash					mktemp
+afida					mmroff
+afinfo					mnthome
+afmtodit				moo-outdated
+afplay					moo-outdated5.18
+afscexpand				moo-outdated5.28
+agentxtrap				moose-outdated
+agvtool					moose-outdated5.18
+alias					moose-outdated5.28
+app-sso					more
+applesingle				mp2bug
+appletviewer				msgs
+apply					nano
+apropos					native2ascii
+apt					nbdst
+ar					nc
+arch					ncal
+as					ncctl
+asa					ncdestroy
+asctl					ncinit
+assetutil				nclist
+at					ncurses5.4-config
+atos					neqn
+atq					net-server
+atrm					net-server5.18
+atsutil					net-server5.28
+automator				net-snmp-cert
+auval					net-snmp-config
+auvaltool				net-snmp-create-v3-user
+avbdiagnose				nettop
+avbutil					newaliases
+avconvert				newgrp
+avmetareadwrite				newproc.d
+awk					nfsstat
+banner					nice
+base64					nl
+basename				nm
+bashbug					nmedit
+batch					nohup
+bc					notifyutil
+bg					nroff
+biff					nscurl
+binhex					nslookup
+binhex.pl				nsupdate
+binhex5.18.pl				objdump
+binhex5.28.pl				ocspcheck
+bioutil					od
+bison					odutil
+bitesize.d				open
+brctl					opendiff
+bsdtar					opensnoop
+bspatch					openssl
+bundle					orbd
+bundler					osacompile
+bunzip2					osadecompile
+bzcat					osalang
+bzcmp					osascript
+bzdiff					otool
+bzegrep					pack200
+bzfgrep					package-stash-conflicts
+bzgrep					package-stash-conflicts5.18
+bzip2					package-stash-conflicts5.28
+bzip2recover				pagesize
+bzless					pagestuff
+bzmore					passwd
+c++					paste
+c++filt					patch
+c2ph					pathchk
+c2ph5.18				pathopens.d
+c89					pbcopy
+c99					pbpaste
+caffeinate				pcap-config
+cal					pcsctest
+calendar				perl
+cancel					perl5.18
+cap_mkdb				perl5.28
+captoinfo				perlbug
+cc					perlbug5.18
+cd					perlbug5.28
+certtool				perldoc
+checknr					perldoc5.18
+chflags					perldoc5.28
+chfn					perlivp
+chgrp					perlivp5.18
+chpass					perlivp5.28
+chsh					perlthanks
+cksum					perlthanks5.18
+clang					perlthanks5.28
+clang++					pfbtops
+clear					pgrep
+cmp					phar
+cmpdylib				phar.phar
+codesign				php
+codesign_allocate			php-config
+col					phpize
+colcrt					pic
+colldef					pico
+colrm					piconv
+column					piconv5.18
+comm					piconv5.28
+command					pidpersec.d
+compress				pip3
+compression_tool			pkgbuild
+config_data				pkill
+config_data5.18				pl
+corelist				pl2pm
+corelist5.18				pl2pm5.18
+corelist5.28				pl2pm5.28
+cpan					plockstat
+cpan2dist				pluginkit
+cpan2dist5.18				plutil
+cpan5.18				pmset
+cpan5.28				pod2html
+cpanp					pod2html5.18
+cpanp-run-perl				pod2html5.28
+cpanp-run-perl5.18			pod2latex
+cpanp5.18				pod2latex5.18
+cpio					pod2man
+cpp					pod2man5.18
+cpu_profiler.d				pod2man5.28
+cpuctl					pod2readme
+cpuwalk.d				pod2readme5.18
+crc32					pod2readme5.28
+crc325.18				pod2text
+crc325.28				pod2text5.18
+creatbyproc.d				pod2text5.28
+crlrefresh				pod2usage
+crontab					pod2usage5.18
+csdiagnose				pod2usage5.28
+csgather				podchecker
+csplit					podchecker5.18
+csreq					podchecker5.28
+csrutil					podselect
+ctags					podselect5.18
+ctf_insert				podselect5.28
+cu					policytool
+cups-config				post-grohtml
+cupstestppd				power_report.sh
+curl					powermetrics
+curl-config				ppdc
+cut					ppdhtml
+cvaffinity				ppdi
+cvcp					ppdmerge
+cvmkdir					ppdpo
+cvmkfile				pr
+dappprof				pre-grohtml
+dapptrace				priclass.d
+darwinup				pridist.d
+db_archive				printenv
+db_checkpoint				printf
+db_codegen				procsystime
+db_deadlock				productbuild
+db_dump					productsign
+db_hotbackup				profiles
+db_load					prove
+db_printlog				prove5.18
+db_recover				prove5.28
+db_stat					psed
+db_upgrade				psed5.18
+db_verify				pstopdf
+dbicadmin				pstruct
+dbicadmin5.18				pstruct5.18
+dbicadmin5.28				ptar
+dbilogstrip				ptar5.18
+dbilogstrip5.18				ptar5.28
+dbilogstrip5.28				ptardiff
+dbiprof					ptardiff5.18
+dbiprof5.18				ptardiff5.28
+dbiprof5.28				ptargrep
+dbiproxy				ptargrep5.18
+dbiproxy5.18				ptargrep5.28
+dbiproxy5.28				pwhich
+dc					pwhich5.18
+debinhex.pl				pwhich5.28
+debinhex5.18.pl				pwpolicy
+debinhex5.28.pl				pydoc
+defaults				pydoc2.7
+delv					python
+desdp					python-config
+diagnose-fu				python2
+diff					python2.7
+diff3					python2.7-config
+diffstat				python3
+dig					pythonw
+dirname					pythonw2.7
+dispqlen.d				qlmanage
+ditto					quota
+dmc					rails
+dns-sd					rake
+drutil					ranlib
+dscacheutil				rdoc
+dscl					read
+dserr					readlink
+dsexport				rebase
+dsimport				redo_prebinding
+dsmemberutil				refer
+dsymutil				renice
+dtruss					reset
+du					resolveLinks
+dwarfdump				rev
+easy_install				ri
+easy_install-2.7			rmic
+egrep					rmid
+enc2xs					rmiregistry
+enc2xs5.18				rpcgen
+enc2xs5.28				rs
+encguess				rsync
+encguess5.28				ruby
+encode_keychange			rview
+env					rvim
+eqn					rwbypid.d
+erb					rwbytype.d
+errinfo					rwsnoop
+ex					s2p
+execsnoop				s2p5.18
+expand					safaridriver
+expect					sample
+extcheck				sampleproc
+eyapp					sandbox-exec
+eyapp5.18				say
+eyapp5.28				sc_usage
+false					scandeps.pl
+fc					scandeps5.18.pl
+fddist					scandeps5.28.pl
+fdesetup				schemagen
+fg					scp
+fgrep					screen
+file					script
+filebyproc.d				sdef
+fileproviderctl				sdiff
+filtercalltree				sdp
+find					sdx
+find2perl				security
+find2perl5.18				sed
+findrule				seeksize.d
+findrule5.18				segedit
+findrule5.28				seq
+finger					serialver
+fixproc					servertool
+flex					setregion
+flex++					setuids.d
+fmt					sfltool
+fold					sftp
+fontrestore				shar
+footprint				shasum
+format-sql				shasum5.18
+format-sql5.18				shasum5.28
+format-sql5.28				shlock
+from					showmount
+fs_usage				sigdist.d
+funzip					sips
+fuser					size
+fwkdp					slogin
+fwkpfv					smbutil
+g++					smtpd.py
+gatherheaderdoc				smtpd2.7.py
+gcc					snfsdefrag
+gcore					snmp-bridge-mib
+gcov					snmpbulkget
+gdiffmk					snmpbulkwalk
+gem					snmpconf
+gen_bridge_metadata			snmpdelta
+gencat					snmpdf
+genstrings				snmpget
+getconf					snmpgetnext
+getopt					snmpinform
+getopts					snmpnetstat
+git					snmpset
+git-receive-pack			snmpstatus
+git-shell				snmptable
+git-upload-archive			snmptest
+git-upload-pack				snmptranslate
+gm4					snmptrap
+gnumake					snmpusm
+gperf					snmpvacm
+grep					snmpwalk
+grn					sntp
+grodvi					soelim
+groff					sort
+groffer					spfd
+grog					spfd5.18
+grolbp					spfd5.28
+grolj4					spfquery
+grops					spfquery5.18
+grotty					spfquery5.28
+groups					splain
+gunzip					splain5.18
+gzcat					splain5.28
+gzexe					split
+gzip					sqlite3
+h2ph					ssh
+h2ph5.18				ssh-add
+h2ph5.28				ssh-agent
+h2xs					ssh-copy-id
+h2xs5.18				ssh-keygen
+h2xs5.28				ssh-keyscan
+hash					stapler
+hdid					stat
+hdiutil					stringdups
+hdxml2manxml				strings
+head					strip
+headerdoc2html				stty.pl
+heap					stty5.18.pl
+hexdump					stty5.28.pl
+hidutil					su
+hiutil					sudo
+host					sum
+hostinfo				svn
+hotspot.d				svnlook
+hpftodit				svnversion
+hpmdiagnose				sw_vers
+htmltree				swift
+htmltree5.18				swiftc
+htmltree5.28				symbols
+ibtool					symbolscache
+iconutil				syscallbypid.d
+iconv					syscallbyproc.d
+ictool					syscallbysysc.d
+id					sysdiagnose
+idle					syslog
+idle2.7					systemextensionsctl
+idlj					tab2space
+imptrace				tabs
+indent					tail
+indxbib					tailspin
+info					talk
+infocmp					tar
+infokey					taskinfo
+infotocap				tbl
+install					tbtdiagnose
+install-info				tccutil
+install_name_tool			tclsh
+instmodsh				tclsh8.5
+instmodsh5.18				tee
+instmodsh5.28				texi2dvi
+instruments				texi2pdf
+iofile.d				texindex
+iofileb.d				textutil
+iopattern				tfmtodit
+iopending				tftp
+iosnoop					thermal
+iotop					tic
+ip2cc					tidy
+ip2cc5.18				tiff2icns
+ip2cc5.28				tiffutil
+ipcount					time
+ipcount5.18				timer_analyser.d
+ipcount5.28				timerfires
+ipcrm					timesyncanalyse
+ipcs					tkcon
+ippeveprinter				tkmib
+ippfind					tmdiagnose
+ipptool					tmutil
+iprofiler				tnameserv
+iptab					toe
+iptab5.18				top
+iptab5.28				tops
+irb					topsyscall
+jar					topsysproc
+jarsigner				touch
+java					tput
+javac					tr
+javadoc					trace
+javah					traptoemail
+javap					treereg
+javapackager				treereg5.18
+javaws					treereg5.28
+jcmd					trimforce
+jconsole				troff
+jcontrol				true
+jdb					tset
+jdeps					tsort
+jhat					tty
+jhsdb					type
+jimage					ul
+jinfo					ulimit
+jjs					umask
+jmap					unalias
+jmc					uname
+jobs					uncompress
+join					unexpand
+jot					unifdef
+jps					unifdefall
+jrunscript				uniq
+jsadebugd				units
+jshell					unpack200
+json_pp					unvis
+json_pp5.18				unzip
+json_pp5.28				unzipsfx
+json_xs					update_dyld_shared_cache
+json_xs5.28				update_dyld_shared_cache_root_mode
+jstack					uptime
+jstat					users
+jstatd					uucp
+jvisualvm				uudecode
+kcc					uuencode
+kdestroy				uuidgen
+kextutil				uulog
+keytool					uuname
+kgetcred				uupick
+kill.d					uustat
+killall					uuto
+kinit					uux
+klist					vi
+kpasswd					view
+krb5-config				vim
+kswitch					vimdiff
+ktrace					vimtutor
+lam					vis
+last					vm_stat
+lastcomm				vmmap
+lastwords				vtool
+latency					w
+layerutil				wait
+ld					wall
+ldapadd					wc
+ldapcompare				wdutil
+ldapdelete				what
+ldapexop				whatis
+ldapmodify				whereis
+ldapmodrdn				which
+ldappasswd				who
+ldapsearch				whoami
+ldapurl					whois
+ldapwhoami				wish
+leaks					wish8.5
+leave					write
+less					wsgen
+lessecho				wsimport
+lex					xar
+libnetcfg				xargs
+libnetcfg5.18				xattr
+libnetcfg5.28				xattr-2.7
+libtool					xcode-select
+lipo					xcodebuild
+lkbib					xcrun
+lldb					xcscontrol
+llvm-g++				xcsdiagnose
+llvm-gcc				xed
+loads.d					xgettext.pl
+locale					xgettext5.18.pl
+localedef				xgettext5.28.pl
+locate					xip
+lockstat				xjc
+log					xml2-config
+logger					xml2man
+login					xmlcatalog
+logname					xmllint
+look					xpath
+lookbib					xpath5.18
+lorder					xpath5.28
+lp					xslt-config
+lpoptions				xsltproc
+lpq					xsubpp
+lpr					xsubpp5.18
+lprm					xsubpp5.28
+lpstat					xxd
+lsappinfo				yaa
+lsbom					yacc
+lskq					yes
+lsm					zcat
+lsmp					zcmp
+lsvfs					zdiff
+lwp-download				zegrep
+lwp-download5.18			zfgrep
+lwp-download5.28			zforce
+lwp-dump				zgrep
+lwp-dump5.18				zip
+lwp-dump5.28				zipcloak
+lwp-mirror				zipdetails
+lwp-mirror5.18				zipdetails5.18
+lwp-mirror5.28				zipdetails5.28
+lwp-request				zipgrep
+lwp-request5.18				zipinfo
+lwp-request5.28				zipnote
+m4					zipsplit
+macbinary				zless
+macerror				zmore
+macerror5.18				znew
+macerror5.28				zprint
+[1m[7m%[27m[1m[0m                                                                                ]7;file://archos/Users/kayvee/Desktop[0m[27m[24m[Jkayvee@archos Desktop % [K[?2004hwwe ll   w  lls /usr/bin | f grep cp[?2004l
+cpan
+cpan2dist
+cpan2dist5.18
+cpan5.18
+cpan5.28
+cpanp
+cpanp-run-perl
+cpanp-run-perl5.18
+cpanp5.18
+cpio
+cpp
+cpu_profiler.d
+cpuctl
+cpuwalk.d
+cvcp
+scp
+uucp
+[1m[7m%[27m[1m[0m                                                                                ]7;file://archos/Users/kayvee/Desktop[0m[27m[24m[Jkayvee@archos Desktop % [K[?2004hccat /etc/passwd | grem  p vaibhav[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://archos/Users/kayvee/Desktop[0m[27m[24m[Jkayvee@archos Desktop % [K[?2004hccat /etc/passwd | grep vaibhav            [?2004l
+##
+# User Database
+# 
+# Note that this file is consulted directly only when the system is running
+# in single-user mode.  At other times this information is provided by
+# Open Directory.
+#
+# See the opendirectoryd(8) man page for additional information about
+# Open Directory.
+##
+nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false
+root:*:0:0:System Administrator:/var/root:/bin/sh
+daemon:*:1:1:System Services:/var/root:/usr/bin/false
+_uucp:*:4:4:Unix to Unix Copy Protocol:/var/spool/uucp:/usr/sbin/uucico
+_taskgated:*:13:13:Task Gate Daemon:/var/empty:/usr/bin/false
+_networkd:*:24:24:Network Services:/var/networkd:/usr/bin/false
+_installassistant:*:25:25:Install Assistant:/var/empty:/usr/bin/false
+_lp:*:26:26:Printing Services:/var/spool/cups:/usr/bin/false
+_postfix:*:27:27:Postfix Mail Server:/var/spool/postfix:/usr/bin/false
+_scsd:*:31:31:Service Configuration Service:/var/empty:/usr/bin/false
+_ces:*:32:32:Certificate Enrollment Service:/var/empty:/usr/bin/false
+_appstore:*:33:33:Mac App Store Service:/var/db/appstore:/usr/bin/false
+_mcxalr:*:54:54:MCX AppLaunch:/var/empty:/usr/bin/false
+_appleevents:*:55:55:AppleEvents Daemon:/var/empty:/usr/bin/false
+_geod:*:56:56:Geo Services Daemon:/var/db/geod:/usr/bin/false
+_devdocs:*:59:59:Developer Documentation:/var/empty:/usr/bin/false
+_sandbox:*:60:60:Seatbelt:/var/empty:/usr/bin/false
+_mdnsresponder:*:65:65:mDNSResponder:/var/empty:/usr/bin/false
+_ard:*:67:67:Apple Remote Desktop:/var/empty:/usr/bin/false
+_www:*:70:70:World Wide Web Server:/Library/WebServer:/usr/bin/false
+_eppc:*:71:71:Apple Events User:/var/empty:/usr/bin/false
+_cvs:*:72:72:CVS Server:/var/empty:/usr/bin/false
+_svn:*:73:73:SVN Server:/var/empty:/usr/bin/false
+_mysql:*:74:74:MySQL Server:/var/empty:/usr/bin/false
+_sshd:*:75:75:sshd Privilege separation:/var/empty:/usr/bin/false
+_qtss:*:76:76:QuickTime Streaming Server:/var/empty:/usr/bin/false
+_cyrus:*:77:6:Cyrus Administrator:/var/imap:/usr/bin/false
+_mailman:*:78:78:Mailman List Server:/var/empty:/usr/bin/false
+_appserver:*:79:79:Application Server:/var/empty:/usr/bin/false
+_clamav:*:82:82:ClamAV Daemon:/var/virusmails:/usr/bin/false
+_amavisd:*:83:83:AMaViS Daemon:/var/virusmails:/usr/bin/false
+_jabber:*:84:84:Jabber XMPP Server:/var/empty:/usr/bin/false
+_appowner:*:87:87:Application Owner:/var/empty:/usr/bin/false
+_windowserver:*:88:88:WindowServer:/var/empty:/usr/bin/false
+_spotlight:*:89:89:Spotlight:/var/empty:/usr/bin/false
+_tokend:*:91:91:Token Daemon:/var/empty:/usr/bin/false
+_securityagent:*:92:92:SecurityAgent:/var/db/securityagent:/usr/bin/false
+_calendar:*:93:93:Calendar:/var/empty:/usr/bin/false
+_teamsserver:*:94:94:TeamsServer:/var/teamsserver:/usr/bin/false
+_update_sharing:*:95:-2:Update Sharing:/var/empty:/usr/bin/false
+_installer:*:96:-2:Installer:/var/empty:/usr/bin/false
+_atsserver:*:97:97:ATS Server:/var/empty:/usr/bin/false
+_ftp:*:98:-2:FTP Daemon:/var/empty:/usr/bin/false
+_unknown:*:99:99:Unknown User:/var/empty:/usr/bin/false
+_softwareupdate:*:200:200:Software Update Service:/var/db/softwareupdate:/usr/bin/false
+_coreaudiod:*:202:202:Core Audio Daemon:/var/empty:/usr/bin/false
+_screensaver:*:203:203:Screensaver:/var/empty:/usr/bin/false
+_locationd:*:205:205:Location Daemon:/var/db/locationd:/usr/bin/false
+_trustevaluationagent:*:208:208:Trust Evaluation Agent:/var/empty:/usr/bin/false
+_timezone:*:210:210:AutoTimeZoneDaemon:/var/empty:/usr/bin/false
+_lda:*:211:211:Local Delivery Agent:/var/empty:/usr/bin/false
+_cvmsroot:*:212:212:CVMS Root:/var/empty:/usr/bin/false
+_usbmuxd:*:213:213:iPhone OS Device Helper:/var/db/lockdown:/usr/bin/false
+_dovecot:*:214:6:Dovecot Administrator:/var/empty:/usr/bin/false
+_dpaudio:*:215:215:DP Audio:/var/empty:/usr/bin/false
+_postgres:*:216:216:PostgreSQL Server:/var/empty:/usr/bin/false
+_krbtgt:*:217:-2:Kerberos Ticket Granting Ticket:/var/empty:/usr/bin/false
+_kadmin_admin:*:218:-2:Kerberos Admin Service:/var/empty:/usr/bin/false
+_kadmin_changepw:*:219:-2:Kerberos Change Password Service:/var/empty:/usr/bin/false
+_devicemgr:*:220:220:Device Management Server:/var/empty:/usr/bin/false
+_webauthserver:*:221:221:Web Auth Server:/var/empty:/usr/bin/false
+_netbios:*:222:222:NetBIOS:/var/empty:/usr/bin/false
+_warmd:*:224:224:Warm Daemon:/var/empty:/usr/bin/false
+_dovenull:*:227:227:Dovecot Authentication:/var/empty:/usr/bin/false
+_netstatistics:*:228:228:Network Statistics Daemon:/var/empty:/usr/bin/false
+_avbdeviced:*:229:-2:Ethernet AVB Device Daemon:/var/empty:/usr/bin/false
+_krb_krbtgt:*:230:-2:Open Directory Kerberos Ticket Granting Ticket:/var/empty:/usr/bin/false
+_krb_kadmin:*:231:-2:Open Directory Kerberos Admin Service:/var/empty:/usr/bin/false
+_krb_changepw:*:232:-2:Open Directory Kerberos Change Password Service:/var/empty:/usr/bin/false
+_krb_kerberos:*:233:-2:Open Directory Kerberos:/var/empty:/usr/bin/false
+_krb_anonymous:*:234:-2:Open Directory Kerberos Anonymous:/var/empty:/usr/bin/false
+_assetcache:*:235:235:Asset Cache Service:/var/empty:/usr/bin/false
+_coremediaiod:*:236:236:Core Media IO Daemon:/var/empty:/usr/bin/false
+_launchservicesd:*:239:239:_launchservicesd:/var/empty:/usr/bin/false
+_iconservices:*:240:240:IconServices:/var/empty:/usr/bin/false
+_distnote:*:241:241:DistNote:/var/empty:/usr/bin/false
+_nsurlsessiond:*:242:242:NSURLSession Daemon:/var/db/nsurlsessiond:/usr/bin/false
+_nsurlstoraged:*:243:243:NSURLStorage Daemon:/var/db/nsurlstoraged:/usr/bin/false
+_displaypolicyd:*:244:244:Display Policy Daemon:/var/empty:/usr/bin/false
+_astris:*:245:245:Astris Services:/var/db/astris:/usr/bin/false
+_krbfast:*:246:-2:Kerberos FAST Account:/var/empty:/usr/bin/false
+_gamecontrollerd:*:247:247:Game Controller Daemon:/var/empty:/usr/bin/false
+_mbsetupuser:*:248:248:Setup User:/var/setup:/bin/bash
+_ondemand:*:249:249:On Demand Resource Daemon:/var/db/ondemand:/usr/bin/false
+_xserverdocs:*:251:251:macOS Server Documents Service:/var/empty:/usr/bin/false
+_wwwproxy:*:252:252:WWW Proxy:/var/empty:/usr/bin/false
+_mobileasset:*:253:253:MobileAsset User:/var/ma:/usr/bin/false
+_findmydevice:*:254:254:Find My Device Daemon:/var/db/findmydevice:/usr/bin/false
+_datadetectors:*:257:257:DataDetectors:/var/db/datadetectors:/usr/bin/false
+_captiveagent:*:258:258:captiveagent:/var/empty:/usr/bin/false
+_ctkd:*:259:259:ctkd Account:/var/empty:/usr/bin/false
+_applepay:*:260:260:applepay Account:/var/db/applepay:/usr/bin/false
+_hidd:*:261:261:HID Service User:/var/db/hidd:/usr/bin/false
+_cmiodalassistants:*:262:262:CoreMedia IO Assistants User:/var/db/cmiodalassistants:/usr/bin/false
+_analyticsd:*:263:263:Analytics Daemon:/var/db/analyticsd:/usr/bin/false
+_fpsd:*:265:265:FPS Daemon:/var/db/fpsd:/usr/bin/false
+_timed:*:266:266:Time Sync Daemon:/var/db/timed:/usr/bin/false
+_nearbyd:*:268:268:Proximity and Ranging Daemon:/var/db/nearbyd:/usr/bin/false
+_reportmemoryexception:*:269:269:ReportMemoryException:/var/db/reportmemoryexception:/usr/bin/false
+_driverkit:*:270:270:DriverKit:/var/empty:/usr/bin/false
+[1m[7m%[27m[1m[0m                                                                                ]7;file://archos/Users/kayvee/Desktop[0m[27m[24m[Jkayvee@archos Desktop % [K[?2004httcsh[?2004l
+[archos:~/Desktop] kayvee% exit
+exit
+[1m[7m%[27m[1m[0m                                                                                ]7;file://archos/Users/kayvee/Desktop[0m[27m[24m[Jkayvee@archos Desktop % [K[?2004hlls[?2004l
+205
+Academic Plan-filled_Out.pages
+Banff_Itinerary.docx.doc
+Exam 2 Study Questions.doc
+Is it possible for machines to have minds Final @.docx
+RLST 100 Field Research Ananlysis.docx
+Screen Shot 2020-01-23 at 9.33.48 AM.png
+academpro_new.pages
+application_for_re-admission_filledOut.pages
+cc
+coop-2020
+lab3.log
+presets
+~$am 2 Study Questions.doc
+[1m[7m%[27m[1m[0m                                                                                ]7;file://archos/Users/kayvee/Desktop[0m[27m[24m[Jkayvee@archos Desktop % [K[?2004hlstcshcat /etc/passwd [?2004l
+##
+# User Database
+# 
+# Note that this file is consulted directly only when the system is running
+# in single-user mode.  At other times this information is provided by
+# Open Directory.
+#
+# See the opendirectoryd(8) man page for additional information about
+# Open Directory.
+##
+nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false
+root:*:0:0:System Administrator:/var/root:/bin/sh
+daemon:*:1:1:System Services:/var/root:/usr/bin/false
+_uucp:*:4:4:Unix to Unix Copy Protocol:/var/spool/uucp:/usr/sbin/uucico
+_taskgated:*:13:13:Task Gate Daemon:/var/empty:/usr/bin/false
+_networkd:*:24:24:Network Services:/var/networkd:/usr/bin/false
+_installassistant:*:25:25:Install Assistant:/var/empty:/usr/bin/false
+_lp:*:26:26:Printing Services:/var/spool/cups:/usr/bin/false
+_postfix:*:27:27:Postfix Mail Server:/var/spool/postfix:/usr/bin/false
+_scsd:*:31:31:Service Configuration Service:/var/empty:/usr/bin/false
+_ces:*:32:32:Certificate Enrollment Service:/var/empty:/usr/bin/false
+_appstore:*:33:33:Mac App Store Service:/var/db/appstore:/usr/bin/false
+_mcxalr:*:54:54:MCX AppLaunch:/var/empty:/usr/bin/false
+_appleevents:*:55:55:AppleEvents Daemon:/var/empty:/usr/bin/false
+_geod:*:56:56:Geo Services Daemon:/var/db/geod:/usr/bin/false
+_devdocs:*:59:59:Developer Documentation:/var/empty:/usr/bin/false
+_sandbox:*:60:60:Seatbelt:/var/empty:/usr/bin/false
+_mdnsresponder:*:65:65:mDNSResponder:/var/empty:/usr/bin/false
+_ard:*:67:67:Apple Remote Desktop:/var/empty:/usr/bin/false
+_www:*:70:70:World Wide Web Server:/Library/WebServer:/usr/bin/false
+_eppc:*:71:71:Apple Events User:/var/empty:/usr/bin/false
+_cvs:*:72:72:CVS Server:/var/empty:/usr/bin/false
+_svn:*:73:73:SVN Server:/var/empty:/usr/bin/false
+_mysql:*:74:74:MySQL Server:/var/empty:/usr/bin/false
+_sshd:*:75:75:sshd Privilege separation:/var/empty:/usr/bin/false
+_qtss:*:76:76:QuickTime Streaming Server:/var/empty:/usr/bin/false
+_cyrus:*:77:6:Cyrus Administrator:/var/imap:/usr/bin/false
+_mailman:*:78:78:Mailman List Server:/var/empty:/usr/bin/false
+_appserver:*:79:79:Application Server:/var/empty:/usr/bin/false
+_clamav:*:82:82:ClamAV Daemon:/var/virusmails:/usr/bin/false
+_amavisd:*:83:83:AMaViS Daemon:/var/virusmails:/usr/bin/false
+_jabber:*:84:84:Jabber XMPP Server:/var/empty:/usr/bin/false
+_appowner:*:87:87:Application Owner:/var/empty:/usr/bin/false
+_windowserver:*:88:88:WindowServer:/var/empty:/usr/bin/false
+_spotlight:*:89:89:Spotlight:/var/empty:/usr/bin/false
+_tokend:*:91:91:Token Daemon:/var/empty:/usr/bin/false
+_securityagent:*:92:92:SecurityAgent:/var/db/securityagent:/usr/bin/false
+_calendar:*:93:93:Calendar:/var/empty:/usr/bin/false
+_teamsserver:*:94:94:TeamsServer:/var/teamsserver:/usr/bin/false
+_update_sharing:*:95:-2:Update Sharing:/var/empty:/usr/bin/false
+_installer:*:96:-2:Installer:/var/empty:/usr/bin/false
+_atsserver:*:97:97:ATS Server:/var/empty:/usr/bin/false
+_ftp:*:98:-2:FTP Daemon:/var/empty:/usr/bin/false
+_unknown:*:99:99:Unknown User:/var/empty:/usr/bin/false
+_softwareupdate:*:200:200:Software Update Service:/var/db/softwareupdate:/usr/bin/false
+_coreaudiod:*:202:202:Core Audio Daemon:/var/empty:/usr/bin/false
+_screensaver:*:203:203:Screensaver:/var/empty:/usr/bin/false
+_locationd:*:205:205:Location Daemon:/var/db/locationd:/usr/bin/false
+_trustevaluationagent:*:208:208:Trust Evaluation Agent:/var/empty:/usr/bin/false
+_timezone:*:210:210:AutoTimeZoneDaemon:/var/empty:/usr/bin/false
+_lda:*:211:211:Local Delivery Agent:/var/empty:/usr/bin/false
+_cvmsroot:*:212:212:CVMS Root:/var/empty:/usr/bin/false
+_usbmuxd:*:213:213:iPhone OS Device Helper:/var/db/lockdown:/usr/bin/false
+_dovecot:*:214:6:Dovecot Administrator:/var/empty:/usr/bin/false
+_dpaudio:*:215:215:DP Audio:/var/empty:/usr/bin/false
+_postgres:*:216:216:PostgreSQL Server:/var/empty:/usr/bin/false
+_krbtgt:*:217:-2:Kerberos Ticket Granting Ticket:/var/empty:/usr/bin/false
+_kadmin_admin:*:218:-2:Kerberos Admin Service:/var/empty:/usr/bin/false
+_kadmin_changepw:*:219:-2:Kerberos Change Password Service:/var/empty:/usr/bin/false
+_devicemgr:*:220:220:Device Management Server:/var/empty:/usr/bin/false
+_webauthserver:*:221:221:Web Auth Server:/var/empty:/usr/bin/false
+_netbios:*:222:222:NetBIOS:/var/empty:/usr/bin/false
+_warmd:*:224:224:Warm Daemon:/var/empty:/usr/bin/false
+_dovenull:*:227:227:Dovecot Authentication:/var/empty:/usr/bin/false
+_netstatistics:*:228:228:Network Statistics Daemon:/var/empty:/usr/bin/false
+_avbdeviced:*:229:-2:Ethernet AVB Device Daemon:/var/empty:/usr/bin/false
+_krb_krbtgt:*:230:-2:Open Directory Kerberos Ticket Granting Ticket:/var/empty:/usr/bin/false
+_krb_kadmin:*:231:-2:Open Directory Kerberos Admin Service:/var/empty:/usr/bin/false
+_krb_changepw:*:232:-2:Open Directory Kerberos Change Password Service:/var/empty:/usr/bin/false
+_krb_kerberos:*:233:-2:Open Directory Kerberos:/var/empty:/usr/bin/false
+_krb_anonymous:*:234:-2:Open Directory Kerberos Anonymous:/var/empty:/usr/bin/false
+_assetcache:*:235:235:Asset Cache Service:/var/empty:/usr/bin/false
+_coremediaiod:*:236:236:Core Media IO Daemon:/var/empty:/usr/bin/false
+_launchservicesd:*:239:239:_launchservicesd:/var/empty:/usr/bin/false
+_iconservices:*:240:240:IconServices:/var/empty:/usr/bin/false
+_distnote:*:241:241:DistNote:/var/empty:/usr/bin/false
+_nsurlsessiond:*:242:242:NSURLSession Daemon:/var/db/nsurlsessiond:/usr/bin/false
+_nsurlstoraged:*:243:243:NSURLStorage Daemon:/var/db/nsurlstoraged:/usr/bin/false
+_displaypolicyd:*:244:244:Display Policy Daemon:/var/empty:/usr/bin/false
+_astris:*:245:245:Astris Services:/var/db/astris:/usr/bin/false
+_krbfast:*:246:-2:Kerberos FAST Account:/var/empty:/usr/bin/false
+_gamecontrollerd:*:247:247:Game Controller Daemon:/var/empty:/usr/bin/false
+_mbsetupuser:*:248:248:Setup User:/var/setup:/bin/bash
+_ondemand:*:249:249:On Demand Resource Daemon:/var/db/ondemand:/usr/bin/false
+_xserverdocs:*:251:251:macOS Server Documents Service:/var/empty:/usr/bin/false
+_wwwproxy:*:252:252:WWW Proxy:/var/empty:/usr/bin/false
+_mobileasset:*:253:253:MobileAsset User:/var/ma:/usr/bin/false
+_findmydevice:*:254:254:Find My Device Daemon:/var/db/findmydevice:/usr/bin/false
+_datadetectors:*:257:257:DataDetectors:/var/db/datadetectors:/usr/bin/false
+_captiveagent:*:258:258:captiveagent:/var/empty:/usr/bin/false
+_ctkd:*:259:259:ctkd Account:/var/empty:/usr/bin/false
+_applepay:*:260:260:applepay Account:/var/db/applepay:/usr/bin/false
+_hidd:*:261:261:HID Service User:/var/db/hidd:/usr/bin/false
+_cmiodalassistants:*:262:262:CoreMedia IO Assistants User:/var/db/cmiodalassistants:/usr/bin/false
+_analyticsd:*:263:263:Analytics Daemon:/var/db/analyticsd:/usr/bin/false
+_fpsd:*:265:265:FPS Daemon:/var/db/fpsd:/usr/bin/false
+_timed:*:266:266:Time Sync Daemon:/var/db/timed:/usr/bin/false
+_nearbyd:*:268:268:Proximity and Ranging Daemon:/var/db/nearbyd:/usr/bin/false
+_reportmemoryexception:*:269:269:ReportMemoryException:/var/db/reportmemoryexception:/usr/bin/false
+_driverkit:*:270:270:DriverKit:/var/empty:/usr/bin/false
+[1m[7m%[27m[1m[0m                                                                                ]7;file://archos/Users/kayvee/Desktop[0m[27m[24m[Jkayvee@archos Desktop % [K[?2004hcclear[?2004l
+[H[2J[1m[7m%[27m[1m[0m                                                                                ]7;file://archos/Users/kayvee/Desktop[0m[27m[24m[Jkayvee@archos Desktop % [K[?2004httcs sh[?2004l
+[archos:~/Desktop] kayvee% ls -l 
+total 5872
+drwxr-xr-x@ 11 kayvee  staff     352 21 Jan 14:03 205
+-rwxr-xr-x@  1 kayvee  staff  750791 15 Jan 11:20 Academic Plan-filled_Out.pages
+-rw-r--r--@  1 kayvee  staff   18691 27 Dec 03:24 Banff_Itinerary.docx.doc
+-rw-r--r--@  1 kayvee  staff   29184  3 Dec 14:34 Exam 2 Study Questions.doc
+-rw-------@  1 kayvee  staff   13102 11 Dec 16:01 Is it possible for machines to have minds Final @.docx
+-rw-r--r--@  1 kayvee  staff  305299 10 Dec 22:49 RLST 100 Field Research Ananlysis.docx
+-rw-r--r--@  1 kayvee  staff   77414 23 Jan 09:33 Screen Shot 2020-01-23 at 9.33.48 AM.png
+-rwxr-xr-x@  1 kayvee  staff  793243 18 Dec 14:38 academpro_new.pages
+-rwxr-xr-x@  1 kayvee  staff  919230 15 Jan 11:24 application_for_re-admission_filledOut.pages
+drwxr-xr-x@ 19 kayvee  staff     608  6 Jan 19:24 cc
+drwxr-xr-x   6 kayvee  staff     192 21 Jan 10:46 coop-2020
+-rw-r--r--@  1 kayvee  staff   27903 24 Jan 14:42 lab3.log
+drwxr-xr-x@ 34 kayvee  staff    1088  6 Jan 19:24 presets
+-rw-r--r--@  1 kayvee  staff     162  4 Dec 14:16 ~$am 2 Study Questions.doc
+[archos:~/Desktop] kayvee% h[Kls
+205
+Academic Plan-filled_Out.pages
+Banff_Itinerary.docx.doc
+Exam 2 Study Questions.doc
+Is it possible for machines to have minds Final @.docx
+RLST 100 Field Research Ananlysis.docx
+Screen Shot 2020-01-23 at 9.33.48 AM.png
+academpro_new.pages
+application_for_re-admission_filledOut.pages
+cc
+coop-2020
+lab3.log
+presets
+~$am 2 Study Questions.doc
+[archos:~/Desktop] kayvee% ssh sharma3v@hec[Krcules.cs.r[Kuregina.ca
+sharma3v@hercules.cs.uregina.ca's password: 
+Last login: Fri Jan 17 20:23:58 2020 from 67-225-27-17.regn.hsdb.sasknet.sk.ca
+
+========================================================================
+
+        I F   Y O U   F O R G E T   Y O U R   P A S S W O R D
+        =====================================================
+
+   - If you know your UofR/Hyperion/Novell user id and password
+     you can change your CS password at:
+
+       https://www.cs.uregina.ca/Password
+
+     If you need assistance with your UofR user id and password
+     go to the Computing Serices Help Desk in ED137.
+
+   - For assistance with your CS user id and password, and for
+     all other problems with your CS account, go to CL119 when a
+     Lab Instructor is holding office hours.
+
+     Bring Photo ID and proof of your Student Number.  Your UofR
+     Student ID provides both.
+
+     Not everyone who holds office hours in CL119 is a Lab Instructor.
+     Check the schedule by the door or at:
+
+       http://www.cs.uregina.ca/Dept/OfficeHours/
+          
+========================================================================
+
+Log in at: Fri Jan 24 14:51:04 CST 2020
+
+hercules[21]% ;s[K[Kls
+[0m[38;5;27mCS215[0m/  CreateTable.php~  [38;5;27mPublic[0m/  [38;5;27mpublic_html[0m/  [38;5;27mworkspace[0m/
+[38;5;27mCS340[0m/  [38;5;27mDesktop[0m/          [38;5;27mcs330[0m/   url.txt~
+[mhercules[22]% cd cs330
+hercules[23]% ls
+[0m[38;5;27mlab1[0m/  [38;5;27mlab2[0m/  [38;5;27mlab3[0m/  [38;5;27mlab4[0m/
+[mhercules[24]% lab[K[K[Kcd lab3
+hercules[25]% ls
+[0m[38;5;34m-hello[0m*           core.execCode.a049849.8970  [38;5;34mexecCode[0m*     hello3.cpp
+[38;5;34mchildParent[0m*      core.execCode.a049849.8972  execCode.cpp  orig.cpp
+childParent.cpp   core.execCode.a049849.8988  [38;5;34mhello[0m*        part2.cpp
+[38;5;34mchildParent2[0m*     [38;5;34mdate[0m*                       hello.cpp
+childParent2.cpp  dateex.cpp                  hello2.cpp
+[mhercules[26]% mkdir 200[K20
+hercules[27]% ls[K[Kls -l
+total 480
+-rwx------ 1 sharma3v csugrd   8408 Sep 20 13:52 [0m[38;5;34m-hello[0m*
+drwx------ 2 sharma3v csugrd   4096 Jan 24 14:51 [38;5;27m2020[0m/
+-rwx------ 1 sharma3v csugrd   8688 Sep 20 13:59 [38;5;34mchildParent[0m*
+-rw------- 1 sharma3v csugrd    921 Sep 20 13:51 childParent.cpp
+-rwx------ 1 sharma3v csugrd   8568 Sep 20 14:11 [38;5;34mchildParent2[0m*
+-rw------- 1 sharma3v csugrd    619 Sep 20 14:11 childParent2.cpp
+-rw------- 1 sharma3v csugrd 253952 Sep 20 14:43 core.execCode.a049849.8970
+-rw------- 1 sharma3v csugrd 253952 Sep 20 14:43 core.execCode.a049849.8972
+-rw------- 1 sharma3v csugrd 253952 Sep 20 14:43 core.execCode.a049849.8988
+-rwx------ 1 sharma3v csugrd   8512 Sep 20 14:32 [38;5;34mdate[0m*
+-rw------- 1 sharma3v csugrd   1002 Sep 20 14:57 dateex.cpp
+-rwx------ 1 sharma3v csugrd   8520 Sep 20 14:43 [38;5;34mexecCode[0m*
+-rw------- 1 sharma3v csugrd    280 Sep 20 14:26 execCode.cpp
+-rwx------ 1 sharma3v csugrd   8408 Sep 20 13:54 [38;5;34mhello[0m*
+-rw------- 1 sharma3v csugrd    224 Sep 20 14:48 hello.cpp
+-rw------- 1 sharma3v csugrd    160 Sep 20 14:38 hello2.cpp
+-rw------- 1 sharma3v csugrd    161 Sep 20 14:38 hello3.cpp
+-rw------- 1 sharma3v csugrd    325 Sep 20 13:51 orig.cpp
+-rw------- 1 sharma3v csugrd    919 Sep 20 13:51 part2.cpp
+[mhercules[28]% ch mod user [K[K[K[Ku-x c[Kchildpar[K[K[KPar[Krent,.cpp[K[K[K[K[K.cpp
+hercules[29]% ls
+[0m[38;5;34m-hello[0m*          childParent2.cpp            dateex.cpp    hello2.cpp
+[38;5;27m2020[0m/            core.execCode.a049849.8970  [38;5;34mexecCode[0m*     hello3.cpp
+[38;5;34mchildParent[0m*     core.execCode.a049849.8972  execCode.cpp  orig.cpp
+childParent.cpp  core.execCode.a049849.8988  [38;5;34mhello[0m*        part2.cpp
+[38;5;34mchildParent2[0m*    [38;5;34mdate[0m*                       hello.cpp
+[mhercules[30]% ls -l
+total 480
+-rwx------ 1 sharma3v csugrd   8408 Sep 20 13:52 [0m[38;5;34m-hello[0m*
+drwx------ 2 sharma3v csugrd   4096 Jan 24 14:51 [38;5;27m2020[0m/
+-rwx------ 1 sharma3v csugrd   8688 Sep 20 13:59 [38;5;34mchildParent[0m*
+-rw------- 1 sharma3v csugrd    921 Sep 20 13:51 childParent.cpp
+-rwx------ 1 sharma3v csugrd   8568 Sep 20 14:11 [38;5;34mchildParent2[0m*
+-rw------- 1 sharma3v csugrd    619 Sep 20 14:11 childParent2.cpp
+-rw------- 1 sharma3v csugrd 253952 Sep 20 14:43 core.execCode.a049849.8970
+-rw------- 1 sharma3v csugrd 253952 Sep 20 14:43 core.execCode.a049849.8972
+-rw------- 1 sharma3v csugrd 253952 Sep 20 14:43 core.execCode.a049849.8988
+-rwx------ 1 sharma3v csugrd   8512 Sep 20 14:32 [38;5;34mdate[0m*
+-rw------- 1 sharma3v csugrd   1002 Sep 20 14:57 dateex.cpp
+-rwx------ 1 sharma3v csugrd   8520 Sep 20 14:43 [38;5;34mexecCode[0m*
+-rw------- 1 sharma3v csugrd    280 Sep 20 14:26 execCode.cpp
+-rwx------ 1 sharma3v csugrd   8408 Sep 20 13:54 [38;5;34mhello[0m*
+-rw------- 1 sharma3v csugrd    224 Sep 20 14:48 hello.cpp
+-rw------- 1 sharma3v csugrd    160 Sep 20 14:38 hello2.cpp
+-rw------- 1 sharma3v csugrd    161 Sep 20 14:38 hello3.cpp
+-rw------- 1 sharma3v csugrd    325 Sep 20 13:51 orig.cpp
+-rw------- 1 sharma3v csugrd    919 Sep 20 13:51 part2.cpp
+[mhercules[31]% ls -l[Kchmod u-x childParent.cpp[15Gls[Kchmod u-x childParent.cpp-[P[1@+
+hercules[32]% ls -l
+total 480
+-rwx------ 1 sharma3v csugrd   8408 Sep 20 13:52 [0m[38;5;34m-hello[0m*
+drwx------ 2 sharma3v csugrd   4096 Jan 24 14:51 [38;5;27m2020[0m/
+-rwx------ 1 sharma3v csugrd   8688 Sep 20 13:59 [38;5;34mchildParent[0m*
+-rwx------ 1 sharma3v csugrd    921 Sep 20 13:51 [38;5;34mchildParent.cpp[0m*
+-rwx------ 1 sharma3v csugrd   8568 Sep 20 14:11 [38;5;34mchildParent2[0m*
+-rw------- 1 sharma3v csugrd    619 Sep 20 14:11 childParent2.cpp
+-rw------- 1 sharma3v csugrd 253952 Sep 20 14:43 core.execCode.a049849.8970
+-rw------- 1 sharma3v csugrd 253952 Sep 20 14:43 core.execCode.a049849.8972
+-rw------- 1 sharma3v csugrd 253952 Sep 20 14:43 core.execCode.a049849.8988
+-rwx------ 1 sharma3v csugrd   8512 Sep 20 14:32 [38;5;34mdate[0m*
+-rw------- 1 sharma3v csugrd   1002 Sep 20 14:57 dateex.cpp
+-rwx------ 1 sharma3v csugrd   8520 Sep 20 14:43 [38;5;34mexecCode[0m*
+-rw------- 1 sharma3v csugrd    280 Sep 20 14:26 execCode.cpp
+-rwx------ 1 sharma3v csugrd   8408 Sep 20 13:54 [38;5;34mhello[0m*
+-rw------- 1 sharma3v csugrd    224 Sep 20 14:48 hello.cpp
+-rw------- 1 sharma3v csugrd    160 Sep 20 14:38 hello2.cpp
+-rw------- 1 sharma3v csugrd    161 Sep 20 14:38 hello3.cpp
+-rw------- 1 sharma3v csugrd    325 Sep 20 13:51 orig.cpp
+-rw------- 1 sharma3v csugrd    919 Sep 20 13:51 part2.cpp
+[mhercules[33]% cleas[Kr
+[H[2Jhercules[34]% 
+hercules[34]% ls 
+[0m[38;5;34m-hello[0m*           childParent2.cpp            dateex.cpp    hello2.cpp
+[38;5;27m2020[0m/             core.execCode.a049849.8970  [38;5;34mexecCode[0m*     hello3.cpp
+[38;5;34mchildParent[0m*      core.execCode.a049849.8972  execCode.cpp  orig.cpp
+[38;5;34mchildParent.cpp[0m*  core.execCode.a049849.8988  [38;5;34mhello[0m*        part2.cpp
+[38;5;34mchildParent2[0m*     [38;5;34mdate[0m*                       hello.cpp
+[mhercules[35]% cd ..
+hercules[36]% ls
+[0m[38;5;27mlab1[0m/  [38;5;27mlab2[0m/  [38;5;27mlab3[0m/  [38;5;27mlab4[0m/
+[mhercules[37]% cd .
+hercules[38]% cd ..
+hercules[39]% ls
+[0m[38;5;27mCS215[0m/  CreateTable.php~  [38;5;27mPublic[0m/  [38;5;27mpublic_html[0m/  [38;5;27mworkspace[0m/
+[38;5;27mCS340[0m/  [38;5;27mDesktop[0m/          [38;5;27mcs330[0m/   url.txt~
+[mhercules[40]% ls -l
+total 32
+drwxr-xr-x 6 sharma3v csugrd 4096 Jan 10 14:41 [0m[38;5;27mCS215[0m/
+drwxr-xr-x 3 sharma3v csugrd 4096 Oct 25  2017 [38;5;27mCS340[0m/
+-rw------- 1 sharma3v csugrd 1214 Nov 18  2017 CreateTable.php~
+drwxr-xr-x 3 sharma3v csugrd 4096 Aug 11  2018 [38;5;27mDesktop[0m/
+drwxr-xr-x 2 sharma3v csugrd 4096 Sep 13  2016 [38;5;27mPublic[0m/
+drwxr-xr-x 6 sharma3v csugrd 4096 Jan 16 14:57 [38;5;27mcs330[0m/
+drwxr-xr-x 6 sharma3v csugrd 4096 Jan 16 16:49 [38;5;27mpublic_html[0m/
+-rw------- 1 sharma3v csugrd    0 Sep 15  2017 url.txt~
+drwxr-xr-x 3 sharma3v csugrd 4096 Oct  5  2017 [38;5;27mworkspace[0m/
+[mhercules[41]% chmode[K[K[K[K[K[Kchmod 711 publoc[K[Kic_htmk[K[Kml
+hercules[42]% ls -l
+total 32
+drwxr-xr-x 6 sharma3v csugrd 4096 Jan 10 14:41 [0m[38;5;27mCS215[0m/
+drwxr-xr-x 3 sharma3v csugrd 4096 Oct 25  2017 [38;5;27mCS340[0m/
+-rw------- 1 sharma3v csugrd 1214 Nov 18  2017 CreateTable.php~
+drwxr-xr-x 3 sharma3v csugrd 4096 Aug 11  2018 [38;5;27mDesktop[0m/
+drwxr-xr-x 2 sharma3v csugrd 4096 Sep 13  2016 [38;5;27mPublic[0m/
+drwxr-xr-x 6 sharma3v csugrd 4096 Jan 16 14:57 [38;5;27mcs330[0m/
+drwx--x--x 6 sharma3v csugrd 4096 Jan 16 16:49 [38;5;27mpublic_html[0m/
+-rw------- 1 sharma3v csugrd    0 Sep 15  2017 url.txt~
+drwxr-xr-x 3 sharma3v csugrd 4096 Oct  5  2017 [38;5;27mworkspace[0m/
+[mhercules[43]% ,a ,a[K[Kman [K[K[K[K[Kman chmod
+[?1049h[?1h=CHMOD(1)                         User Commands                        CHMOD(1)
+
+
+
+[1mNAME[0m
+       chmod - change file mode bits
+
+[1mSYNOPSIS[0m
+       [1mchmod[0m [[4mOPTION[24m]... [4mMODE[24m[[4m,MODE[24m]... [4mFILE[24m...
+       [1mchmod[0m [[4mOPTION[24m]... [4mOCTAL-MODE[24m [4mFILE[24m...
+       [1mchmod[0m [[4mOPTION[24m]... [4m--reference=RFILE[24m [4mFILE[24m...
+
+[1mDESCRIPTION[0m
+       This manual page documents the GNU version of [1mchmod[0m.  [1mchmod[0m changes the
+       file mode bits of each given file  according  to  [4mmode[24m,  which  can  be
+       either a symbolic representation of changes to make, or an octal number
+       representing the bit pattern for the new mode bits.
+
+       The format of a symbolic mode is  [[1mugoa[0m...][[[1m+-=[0m][[4mperms[24m...]...],  where
+       [4mperms[24m  is  either zero or more letters from the set [1mrwxXst[0m, or a single
+       letter from the set [1mugo[0m.  Multiple symbolic modes can be  given,  sepa-
+       rated by commas.
+
+:[K[K/[Krr[Kee[Kss[Kuu[Kcc[Krr[Kii[K[K[K[K[K[K[Kcc[K[Kee[Kcc[Kuu[Krr[Kss[Kii[Kvv[Kee[K[1;1HCHMOD(1)                         User Commands                        CHMOD(1)
+[2;1H
+[3;1H
+[4;1H
+[5;1H[1mNAME[0m
+[6;1H       chmod - change file mode bits
+[7;1H
+[8;1H[1mSYNOPSIS[0m
+[9;1H       [1mchmod[0m [[4mOPTION[24m]... [4mMODE[24m[[4m,MODE[24m]... [4mFILE[24m...
+[10;1H       [1mchmod[0m [[4mOPTION[24m]... [4mOCTAL-MODE[24m [4mFILE[24m...
+[11;1H       [1mchmod[0m [[4mOPTION[24m]... [4m--reference=RFILE[24m [4mFILE[24m...
+[12;1H
+[13;1H[1mDESCRIPTION[0m
+[14;1H       This manual page documents the GNU version of [1mchmod[0m.  [1mchmod[0m changes the
+[15;1H       file mode bits of each given file  according  to  [4mmode[24m,  which  can  be
+[16;1H       either a symbolic representation of changes to make, or an octal number
+[17;1H       representing the bit pattern for the new mode bits.
+[18;1H
+[19;1H       The format of a symbolic mode is  [[1mugoa[0m...][[[1m+-=[0m][[4mperms[24m...]...],  where
+[20;1H       [4mperms[24m  is  either zero or more letters from the set [1mrwxXst[0m, or a single
+[21;1H       letter from the set [1mugo[0m.  Multiple symbolic modes can be  given,  sepa-
+[22;1H       rated by commas.
+[23;1H
+[24;1H[1;1HCHMOD(1)                         User Commands                        CHMOD(1)
+[2;1H
+[3;1H
+[4;1H
+[5;1H[1mNAME[0m
+[6;1H       chmod - change file mode bits
+[7;1H
+[8;1H[1mSYNOPSIS[0m
+[9;1H       [1mchmod[0m [[4mOPTION[24m]... [4mMODE[24m[[4m,MODE[24m]... [4mFILE[24m...
+[10;1H       [1mchmod[0m [[4mOPTION[24m]... [4mOCTAL-MODE[24m [4mFILE[24m...
+[11;1H       [1mchmod[0m [[4mOPTION[24m]... [4m--reference=RFILE[24m [4mFILE[24m...
+[12;1H
+[13;1H[1mDESCRIPTION[0m
+[14;1H       This manual page documents the GNU version of [1mchmod[0m.  [1mchmod[0m changes the
+[15;1H       file mode bits of each given file  according  to  [4mmode[24m,  which  can  be
+[16;1H       either a symbolic representation of changes to make, or an octal number
+[17;1H       representing the bit pattern for the new mode bits.
+[18;1H
+[19;1H       The format of a symbolic mode is  [[1mugoa[0m...][[[1m+-=[0m][[4mperms[24m...]...],  where
+[20;1H       [4mperms[24m  is  either zero or more letters from the set [1mrwxXst[0m, or a single
+[21;1H       letter from the set [1mugo[0m.  Multiple symbolic modes can be  given,  sepa-
+[22;1H       rated by commas.
+[23;1H
+[24;1H...skipping...
+       tered during [7mrecursive[27m directory traversals.
+
+[1mSETUID[0m [1mAND[0m [1mSETGID[0m [1mBITS[0m
+       [1mchmod[0m clears the set-group-ID bit of a regular file if the file's group
+       ID  does  not  match the user's effective group ID or one of the user's
+       supplementary group IDs, unless the user  has  appropriate  privileges.
+       Additional restrictions may cause the set-user-ID and set-group-ID bits
+       of [4mMODE[24m or [4mRFILE[24m to be ignored.  This behavior depends  on  the  policy
+       and  functionality of the underlying [1mchmod[0m system call.  When in doubt,
+       check the underlying system behavior.
+
+       [1mchmod[0m preserves a directory's set-user-ID and set-group-ID bits  unless
+       you  explicitly  specify otherwise.  You can set or clear the bits with
+       symbolic modes like [1mu+s[0m and [1mg-s[0m, and you can set (but  not  clear)  the
+       bits with a numeric mode.
+
+[1mRESTRICTED[0m [1mDELETION[0m [1mFLAG[0m [1mOR[0m [1mSTICKY[0m [1mBIT[0m
+       The  restricted  deletion  flag  or  sticky  bit is a single bit, whose
+       interpretation depends on the file type.  For directories, it  prevents
+       unprivileged  users  from  removing or renaming a file in the directory
+       unless they  own  the  file  or  the  directory;  this  is  called  the
+       [4mrestricted[24m  [4mdeletion[24m  [4mflag[24m  for the directory, and is commonly found on
+       world-writable directories like [1m/tmp[0m.  For regular files on some  older
+:[K[K/[K...skipping...
+              fail to operate [7mrecursive[27mly on '/'
+
+       [1m-f[0m, [1m--silent[0m, [1m--quiet[0m
+              suppress most error messages
+
+       [1m-v[0m, [1m--verbose[0m
+              output a diagnostic for every file processed
+
+       [1m--reference[0m=[4mRFILE[24m
+              use RFILE's mode instead of MODE values
+
+       [1m-R[0m, [1m--[0m[1m[7mrecursive[27m[0m
+              change files and directories [7mrecursive[27mly
+
+       [1m--help[0m display this help and exit
+
+       [1m--version[0m
+              output version information and exit
+
+       Each MODE is of the form '[ugoa]*([-+=]([rwxXst]*|[ugo]))+'.
+
+[1mAUTHOR[0m
+       Written by David MacKenzie and Jim Meyering.
+:[K[K/[K
+[1mREPORTING[0m [1mBUGS[0m
+       Report chmod bugs to bug-coreutils@gnu.org
+       GNU coreutils home page: <http://www.gnu.org/software/coreutils/>
+       General help using GNU software: <http://www.gnu.org/gethelp/>
+       Report chmod translation bugs to <http://translationproject.org/team/>
+
+[1mCOPYRIGHT[0m
+       Copyright (C) 2010 Free Software Foundation, Inc.   License  GPLv3+:  GNU
+       GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+       This  is  free  software:  you  are free to change and redistribute it.
+:[K[K/[K       There is NO WARRANTY, to the extent permitted by law.
+:[K[K/[K[K[7mPattern not found  (press RETURN)[27m[24;1H[K/[K[K[7mPattern not found  (press RETURN)[27m[24;1H[K/[K[K[7mPattern not found  (press RETURN)[27m[24;1H[K/[K[K[7mPattern not found  (press RETURN)[27m[24;1H[K[H[2J[HM
+[HM       rated by commas.
+[HM       letter from the set [1mugo[0m.  Multiple symbolic modes can be  given,  sepa-
+[HM       [4mperms[24m  is  either zero or more letters from the set [1mrwxXst[0m, or a single
+[HM       The format of a symbolic mode is  [[1mugoa[0m...][[[1m+-=[0m][[4mperms[24m...]...],  where
+[HM
+[HM       representing the bit pattern for the new mode bits.
+[HM       either a symbolic representation of changes to make, or an octal number
+[HM       file mode bits of each given file  according  to  [4mmode[24m,  which  can  be
+[HM       This manual page documents the GNU version of [1mchmod[0m.  [1mchmod[0m changes the
+[HM[1mDESCRIPTION[0m
+[HM
+[HM       [1mchmod[0m [[4mOPTION[24m]... [4m--reference=RFILE[24m [4mFILE[24m...
+[HM       [1mchmod[0m [[4mOPTION[24m]... [4mOCTAL-MODE[24m [4mFILE[24m...
+[HM       [1mchmod[0m [[4mOPTION[24m]... [4mMODE[24m[[4m,MODE[24m]... [4mFILE[24m...
+[HM[1mSYNOPSIS[0m
+[HM
+[HM       chmod - change file mode bits
+[HM[1mNAME[0m
+[HM
+[HM
+[HM
+[HMCHMOD(1)                         User Commands                        CHMOD(1)
+[24;1H[K:[K[K       A  combination  of the letters [1mugoa[0m controls which users' access to the
+:[K[K[HMCHMOD(1)                         User Commands                        CHMOD(1)
+[24;1H[K:[K[K[?1l>[?1049l[?1049h[?1h=CHMOD(1P)                  POSIX Programmer's Manual                 CHMOD(1P)
+
+
+
+[1mPROLOG[0m
+       This  manual  page is part of the POSIX Programmer's Manual.  The Linux
+       implementation of this interface may differ (consult the  corresponding
+       Linux  manual page for details of Linux behavior), or the interface may
+       not be implemented on Linux.
+
+[1mNAME[0m
+       chmod - change the file modes
+
+[1mSYNOPSIS[0m
+       [1mchmod[0m [1m[-R][0m [4mmode[24m [4mfile[24m [1m...[0m
+
+[1mDESCRIPTION[0m
+       The [4mchmod[24m utility shall change any or all of the file mode bits of  the
+       file  named  by  each  [4mfile[24m  operand  in  the way specified by the [4mmode[24m
+       operand.
+
+       It is implementation-defined whether and how the [4mchmod[24m utility  affects
+       any alternate or additional file access control mechanism (see the Base
+:[K[K[?1l>[?1049l[?1049h[?1h=CHMOD(2)                   Linux Programmer's Manual                  CHMOD(2)
+
+
+
+[1mNAME[0m
+       chmod, fchmod - change permissions of a file
+
+[1mSYNOPSIS[0m
+       [1m#include[0m [1m<sys/stat.h>[0m
+
+       [1mint[0m [1mchmod(const[0m [1mchar[0m [1m*[0m[4mpath[24m[1m,[0m [1mmode_t[0m [4mmode[24m[1m);[0m
+       [1mint[0m [1mfchmod(int[0m [4mfd[24m[1m,[0m [1mmode_t[0m [4mmode[24m[1m);[0m
+
+   Feature Test Macro Requirements for glibc (see [1mfeature_test_macros[0m(7)):
+
+       [1mfchmod[0m(): _BSD_SOURCE || _XOPEN_SOURCE >= 500
+
+[1mDESCRIPTION[0m
+       These  system calls change the permissions of a file.  They differ only
+       in how the file is specified:
+
+       * [1mchmod[0m() changes the permissions of the file specified whose  pathname
+         is given in [4mpath[24m, which is dereferenced if it is a symbolic link.
+:[K[K[?1l>[?1049l[?1049h[?1h=CHMOD(3P)                  POSIX Programmer's Manual                 CHMOD(3P)
+
+
+
+[1mPROLOG[0m
+       This  manual  page is part of the POSIX Programmer's Manual.  The Linux
+       implementation of this interface may differ (consult the  corresponding
+       Linux  manual page for details of Linux behavior), or the interface may
+       not be implemented on Linux.
+
+[1mNAME[0m
+       chmod - change mode of a file
+
+[1mSYNOPSIS[0m
+       [1m#include[0m [1m<sys/stat.h>[0m
+
+       [1mint[0m [1mchmod(const[0m [1mchar[0m [1m*[0m[4mpath[24m[1m,[0m [1mmode_t[0m [4mmode[24m[1m);[0m
+
+
+[1mDESCRIPTION[0m
+       The [4mchmod[24m() function shall change S_ISUID, S_ISGID,  S_ISVTX,  and  the
+       file  permission  bits  of the file named by the pathname pointed to by
+       the [4mpath[24m argument to the corresponding bits in the [4mmode[24m  argument.  The
+:[K[K[?1l>[?1049lhercules[44]% l[Kcd ..
+hercules[45]% ls
+[0m[38;5;27msadikova[0m/  [38;5;27msbb279[0m/    [38;5;27mshevtsod[0m/  [38;5;27msjr198[0m/    [38;5;27msmr528[0m/    [38;5;27msrh906[0m/  [38;5;27msteier2g[0m/
+[38;5;27msafinuco[0m/  [38;5;27msbp934[0m/    [38;5;27mshieldsn[0m/  [38;5;27msjw310[0m/    [38;5;27msmu220[0m/    [38;5;27msro742[0m/  [38;5;27mstewjaco[0m/
+[38;5;27msah655[0m/    [38;5;27msbw019[0m/    [38;5;27mshilovay[0m/  [38;5;27mskd334[0m/    [38;5;27msmz898[0m/    [38;5;27msrp796[0m/  [38;5;27mstice20s[0m/
+[38;5;27msahatoom[0m/  [38;5;27msbx245[0m/    [38;5;27mshin202j[0m/  [38;5;27mske411[0m/    [38;5;27msna791[0m/    [38;5;27mssb622[0m/  [38;5;27mstinsons[0m/
+[38;5;27msakou20r[0m/  [38;5;27msca110[0m/    [38;5;27mshj986[0m/    [38;5;27mskg072[0m/    [38;5;27msnl033[0m/    [38;5;27mssc125[0m/  [38;5;27mstj474[0m/
+[38;5;27msalad20l[0m/  [38;5;27mscc582[0m/    [38;5;27mshkapoyi[0m/  [38;5;27mskg286[0m/    [38;5;27msnn671[0m/    [38;5;27mssc369[0m/  [38;5;27msto174[0m/
+[38;5;27msaleem2s[0m/  [38;5;27mschminic[0m/  [38;5;27mshl383[0m/    [38;5;27mskm051[0m/    [38;5;27msny349[0m/    [38;5;27mssd269[0m/  [38;5;27mstonjeff[0m/
+[38;5;27msam309[0m/    [38;5;27msco808[0m/    [38;5;27mshm053[0m/    [38;5;27mskp051[0m/    [38;5;27msny899[0m/    [38;5;27mssd785[0m/  [38;5;27msu252[0m/
+[38;5;27msam363[0m/    [38;5;27mscott23r[0m/  [38;5;27mshn936[0m/    [38;5;27msks688[0m/    [38;5;27msohal22m[0m/  [38;5;27mssf656[0m/  [38;5;27msum752[0m/
+[38;5;27msam640[0m/    [38;5;27msdf575[0m/    [38;5;27mshp291[0m/    [38;5;27mskv016[0m/    [38;5;27msolis20r[0m/  [38;5;27mssf677[0m/  [38;5;27msun397[0m/
+[38;5;27msan739[0m/    [38;5;27msdh742[0m/    [38;5;27mshrespra[0m/  [38;5;27mskv708[0m/    [38;5;27msoltanab[0m/  [38;5;27mssi155[0m/  [38;5;27msuv934[0m/
+[38;5;27msandin2c[0m/  [38;5;27msdk616[0m/    [38;5;27msht388[0m/    [38;5;27mskx660[0m/    [38;5;27msommerai[0m/  [38;5;27mssj001[0m/  [38;5;27msva797[0m/
+[38;5;27msap796[0m/    [38;5;27msdr904[0m/    [38;5;27mshuaib2s[0m/  [38;5;27msky846[0m/    [38;5;27msomwe20t[0m/  [38;5;27mssl630[0m/  [38;5;27mswa248[0m/
+[38;5;27msaran22s[0m/  [38;5;27msdz725[0m/    [38;5;27msi204[0m/     [38;5;27mslaney2n[0m/  [38;5;27msoren200[0m/  [38;5;27mssm265[0m/  [38;5;27mswd319[0m/
+[38;5;27msas162[0m/    [38;5;27msel169[0m/    [38;5;27msiddiqma[0m/  [38;5;27mslater2l[0m/  [38;5;27mspb262[0m/    [38;5;27mssm728[0m/  [38;5;27mswitzeti[0m/
+[38;5;27msas671[0m/    [38;5;27mser386[0m/    [38;5;27msidhu23s[0m/  [38;5;27mslb754[0m/    [38;5;27mspe820[0m/    [38;5;27mssp492[0m/  [38;5;27mswu802[0m/
+[38;5;27msasyniub[0m/  [38;5;27msfa689[0m/    [38;5;27msiganskk[0m/  [38;5;27msli133[0m/    [38;5;27mspm126[0m/    [38;5;27mssp551[0m/  [38;5;27mswu839[0m/
+[38;5;27msat112[0m/    [38;5;27msft282[0m/    [38;5;27msilzer4d[0m/  [38;5;27msli632[0m/    [38;5;27mspn321[0m/    [38;5;27mssp672[0m/  [38;5;27msxj539[0m/
+[38;5;27msat953[0m/    [38;5;27msfz421[0m/    [38;5;27msimpsoki[0m/  [38;5;27mslogosks[0m/  [38;5;27msps544[0m/    [38;5;27mssp683[0m/  [38;5;27msyp147[0m/
+[38;5;27msauer24j[0m/  [38;5;27msgd268[0m/    [38;5;27msingh34g[0m/  [38;5;27mslp799[0m/    [38;5;27msps993[0m/    [38;5;27mssr541[0m/  [38;5;27mszm145[0m/
+[38;5;27msawa200m[0m/  [38;5;27msgd476[0m/    [38;5;27msinghaar[0m/  [38;5;27msmd347[0m/    [38;5;27mspw571[0m/    [38;5;27mssr589[0m/  [38;5;27mszp162[0m/
+[38;5;27msawajaco[0m/  [38;5;27msgk699[0m/    [38;5;27msjc998[0m/    [38;5;27msme577[0m/    [38;5;27mspy500[0m/    [38;5;27msss789[0m/  [38;5;27mszt150[0m/
+[38;5;27msax744[0m/    [38;5;27mshah227s[0m/  [38;5;27msjp466[0m/    [38;5;27msmith1wa[0m/  [38;5;27mspy718[0m/    [38;5;27msst053[0m/
+[38;5;27msaz572[0m/    [38;5;27msharma3v[0m/  [38;5;27msjp553[0m/    [38;5;27msmith58d[0m/  [38;5;27msrc617[0m/    [38;5;27msst933[0m/
+[38;5;27msaz977[0m/    [38;5;27msharma5k[0m/  [38;5;27msjp720[0m/    [38;5;27msml335[0m/    [38;5;27msrf832[0m/    [38;5;27mssz659[0m/
+[mhercules[46]% ls sharmav[K3v
+[0m[38;5;27mCS215[0m/  CreateTable.php~  [38;5;27mPublic[0m/  [38;5;27mpublic_html[0m/  [38;5;27mworkspace[0m/
+[38;5;27mCS340[0m/  [38;5;27mDesktop[0m/          [38;5;27mcs330[0m/   url.txt~
+[mhercules[47]% cd cs330
+cs330: No such file or directory.
+hercules[48]% ls
+[0m[38;5;27msadikova[0m/  [38;5;27msbb279[0m/    [38;5;27mshevtsod[0m/  [38;5;27msjr198[0m/    [38;5;27msmr528[0m/    [38;5;27msrh906[0m/  [38;5;27msteier2g[0m/
+[38;5;27msafinuco[0m/  [38;5;27msbp934[0m/    [38;5;27mshieldsn[0m/  [38;5;27msjw310[0m/    [38;5;27msmu220[0m/    [38;5;27msro742[0m/  [38;5;27mstewjaco[0m/
+[38;5;27msah655[0m/    [38;5;27msbw019[0m/    [38;5;27mshilovay[0m/  [38;5;27mskd334[0m/    [38;5;27msmz898[0m/    [38;5;27msrp796[0m/  [38;5;27mstice20s[0m/
+[38;5;27msahatoom[0m/  [38;5;27msbx245[0m/    [38;5;27mshin202j[0m/  [38;5;27mske411[0m/    [38;5;27msna791[0m/    [38;5;27mssb622[0m/  [38;5;27mstinsons[0m/
+[38;5;27msakou20r[0m/  [38;5;27msca110[0m/    [38;5;27mshj986[0m/    [38;5;27mskg072[0m/    [38;5;27msnl033[0m/    [38;5;27mssc125[0m/  [38;5;27mstj474[0m/
+[38;5;27msalad20l[0m/  [38;5;27mscc582[0m/    [38;5;27mshkapoyi[0m/  [38;5;27mskg286[0m/    [38;5;27msnn671[0m/    [38;5;27mssc369[0m/  [38;5;27msto174[0m/
+[38;5;27msaleem2s[0m/  [38;5;27mschminic[0m/  [38;5;27mshl383[0m/    [38;5;27mskm051[0m/    [38;5;27msny349[0m/    [38;5;27mssd269[0m/  [38;5;27mstonjeff[0m/
+[38;5;27msam309[0m/    [38;5;27msco808[0m/    [38;5;27mshm053[0m/    [38;5;27mskp051[0m/    [38;5;27msny899[0m/    [38;5;27mssd785[0m/  [38;5;27msu252[0m/
+[38;5;27msam363[0m/    [38;5;27mscott23r[0m/  [38;5;27mshn936[0m/    [38;5;27msks688[0m/    [38;5;27msohal22m[0m/  [38;5;27mssf656[0m/  [38;5;27msum752[0m/
+[38;5;27msam640[0m/    [38;5;27msdf575[0m/    [38;5;27mshp291[0m/    [38;5;27mskv016[0m/    [38;5;27msolis20r[0m/  [38;5;27mssf677[0m/  [38;5;27msun397[0m/
+[38;5;27msan739[0m/    [38;5;27msdh742[0m/    [38;5;27mshrespra[0m/  [38;5;27mskv708[0m/    [38;5;27msoltanab[0m/  [38;5;27mssi155[0m/  [38;5;27msuv934[0m/
+[38;5;27msandin2c[0m/  [38;5;27msdk616[0m/    [38;5;27msht388[0m/    [38;5;27mskx660[0m/    [38;5;27msommerai[0m/  [38;5;27mssj001[0m/  [38;5;27msva797[0m/
+[38;5;27msap796[0m/    [38;5;27msdr904[0m/    [38;5;27mshuaib2s[0m/  [38;5;27msky846[0m/    [38;5;27msomwe20t[0m/  [38;5;27mssl630[0m/  [38;5;27mswa248[0m/
+[38;5;27msaran22s[0m/  [38;5;27msdz725[0m/    [38;5;27msi204[0m/     [38;5;27mslaney2n[0m/  [38;5;27msoren200[0m/  [38;5;27mssm265[0m/  [38;5;27mswd319[0m/
+[38;5;27msas162[0m/    [38;5;27msel169[0m/    [38;5;27msiddiqma[0m/  [38;5;27mslater2l[0m/  [38;5;27mspb262[0m/    [38;5;27mssm728[0m/  [38;5;27mswitzeti[0m/
+[38;5;27msas671[0m/    [38;5;27mser386[0m/    [38;5;27msidhu23s[0m/  [38;5;27mslb754[0m/    [38;5;27mspe820[0m/    [38;5;27mssp492[0m/  [38;5;27mswu802[0m/
+[38;5;27msasyniub[0m/  [38;5;27msfa689[0m/    [38;5;27msiganskk[0m/  [38;5;27msli133[0m/    [38;5;27mspm126[0m/    [38;5;27mssp551[0m/  [38;5;27mswu839[0m/
+[38;5;27msat112[0m/    [38;5;27msft282[0m/    [38;5;27msilzer4d[0m/  [38;5;27msli632[0m/    [38;5;27mspn321[0m/    [38;5;27mssp672[0m/  [38;5;27msxj539[0m/
+[38;5;27msat953[0m/    [38;5;27msfz421[0m/    [38;5;27msimpsoki[0m/  [38;5;27mslogosks[0m/  [38;5;27msps544[0m/    [38;5;27mssp683[0m/  [38;5;27msyp147[0m/
+[38;5;27msauer24j[0m/  [38;5;27msgd268[0m/    [38;5;27msingh34g[0m/  [38;5;27mslp799[0m/    [38;5;27msps993[0m/    [38;5;27mssr541[0m/  [38;5;27mszm145[0m/
+[38;5;27msawa200m[0m/  [38;5;27msgd476[0m/    [38;5;27msinghaar[0m/  [38;5;27msmd347[0m/    [38;5;27mspw571[0m/    [38;5;27mssr589[0m/  [38;5;27mszp162[0m/
+[38;5;27msawajaco[0m/  [38;5;27msgk699[0m/    [38;5;27msjc998[0m/    [38;5;27msme577[0m/    [38;5;27mspy500[0m/    [38;5;27msss789[0m/  [38;5;27mszt150[0m/
+[38;5;27msax744[0m/    [38;5;27mshah227s[0m/  [38;5;27msjp466[0m/    [38;5;27msmith1wa[0m/  [38;5;27mspy718[0m/    [38;5;27msst053[0m/
+[38;5;27msaz572[0m/    [38;5;27msharma3v[0m/  [38;5;27msjp553[0m/    [38;5;27msmith58d[0m/  [38;5;27msrc617[0m/    [38;5;27msst933[0m/
+[38;5;27msaz977[0m/    [38;5;27msharma5k[0m/  [38;5;27msjp720[0m/    [38;5;27msml335[0m/    [38;5;27msrf832[0m/    [38;5;27mssz659[0m/
+[mhercules[49]% cd[K[Kcd sharma3v
+hercules[50]% ls
+[0m[38;5;27mCS215[0m/  CreateTable.php~  [38;5;27mPublic[0m/  [38;5;27mpublic_html[0m/  [38;5;27mworkspace[0m/
+[38;5;27mCS340[0m/  [38;5;27mDesktop[0m/          [38;5;27mcs330[0m/   url.txt~
+[mhercules[51]% cd cs330
+hercules[52]% ls
+[0m[38;5;27mlab1[0m/  [38;5;27mlab2[0m/  [38;5;27mlab3[0m/  [38;5;27mlab4[0m/
+[mhercules[53]% cd lab2
+hercules[54]% ls
+[0m[38;5;27m2020[0m/       HALmod.h  Makefile  main.cpp  output            typescript
+HALmod.cpp  HALmod.o  [38;5;34mdemo[0m*     main.o    submissionScript
+[mhercules[55]% cd 2020
+hercules[56]% ls
+Makefile  functions.c  functions.o      main.c
+[0m[38;5;34mdemo[0m*     functions.h  lab2deliverable  main.o
+[mhercules[57]% cp make[K[K[K[Kmake[K[K[K[KN[KMaek[K[KkeFile --[K[K~[K/cs330/lab2/[K[K3/2002[K[K20
+cp: cannot stat `MakeFile': No such file or directory
+hercules[58]% ls
+Makefile  functions.c  functions.o      main.c
+[0m[38;5;34mdemo[0m*     functions.h  lab2deliverable  main.o
+[mhercules[59]% lscp MakeFile /cs330/lab3/2020i[P[1@f
+cp: cannot create regular file `/cs330/lab3/2020': No such file or directory
+hercules[60]% cp Makefile /cs330/lab3/2020[1@~
+hercules[61]% l[Kcd ~
+hercules[62]% ls
+[0m[38;5;27mCS215[0m/  CreateTable.php~  [38;5;27mPublic[0m/  [38;5;27mpublic_html[0m/  [38;5;27mworkspace[0m/
+[38;5;27mCS340[0m/  [38;5;27mDesktop[0m/          [38;5;27mcs330[0m/   url.txt~
+[mhercules[63]% cd 3[Kcs330
+hercules[64]% ls[K[Kcd lab3
+hercules[65]% cd 200[K20
+hercules[66]% ls
+Makefile
+hercules[67]% man strtok
+[?1049h[?1h=STRTOK(3)                  Linux Programmer's Manual                 STRTOK(3)
+
+
+
+[1mNAME[0m
+       strtok, strtok_r - extract tokens from strings
+
+[1mSYNOPSIS[0m
+       [1m#include[0m [1m<string.h>[0m
+
+       [1mchar[0m [1m*strtok(char[0m [1m*[0m[4mstr[24m[1m,[0m [1mconst[0m [1mchar[0m [1m*[0m[4mdelim[24m[1m);[0m
+
+       [1mchar[0m [1m*strtok_r(char[0m [1m*[0m[4mstr[24m[1m,[0m [1mconst[0m [1mchar[0m [1m*[0m[4mdelim[24m[1m,[0m [1mchar[0m [1m**[0m[4msaveptr[24m[1m);[0m
+
+   Feature Test Macro Requirements for glibc (see [1mfeature_test_macros[0m(7)):
+
+       [1mstrtok_r[0m(): _SVID_SOURCE || _BSD_SOURCE || _POSIX_C_SOURCE >= 1 ||
+       _XOPEN_SOURCE || _POSIX_SOURCE
+
+[1mDESCRIPTION[0m
+       The [1mstrtok[0m() function parses a string into a sequence  of  tokens.   On
+       the  first call to [1mstrtok[0m() the string to be parsed should be specified
+       in [4mstr[24m.  In each subsequent call that should parse the same string, [4mstr[24m
+:[K[K/[K[1;1HSTRTOK(3)                  Linux Programmer's Manual                 STRTOK(3)
+[2;1H
+[3;1H
+[4;1H
+[5;1H[1mNAME[0m
+[6;1H       strtok, strtok_r - extract tokens from strings
+[7;1H
+[8;1H[1mSYNOPSIS[0m
+[9;1H       [1m#include[0m [1m<string.h>[0m
+[10;1H
+[11;1H       [1mchar[0m [1m*strtok(char[0m [1m*[0m[4mstr[24m[1m,[0m [1mconst[0m [1mchar[0m [1m*[0m[4mdelim[24m[1m);[0m
+[12;1H
+[13;1H       [1mchar[0m [1m*strtok_r(char[0m [1m*[0m[4mstr[24m[1m,[0m [1mconst[0m [1mchar[0m [1m*[0m[4mdelim[24m[1m,[0m [1mchar[0m [1m**[0m[4msaveptr[24m[1m);[0m
+[14;1H
+[15;1H   Feature Test Macro Requirements for glibc (see [1mfeature_test_macros[0m(7)):
+[16;1H
+[17;1H       [1mstrtok_r[0m(): _SVID_SOURCE || _BSD_SOURCE || _POSIX_C_SOURCE >= 1 ||
+[18;1H       _XOPEN_SOURCE || _POSIX_SOURCE
+[19;1H
+[20;1H[1mDESCRIPTION[0m
+[21;1H       The [1mstrtok[0m() function parses a string into a sequence  of  tokens.   On
+[22;1H       the  first call to [1mstrtok[0m() the string to be parsed should be specified
+[23;1H       in [4mstr[24m.  In each subsequent call that should parse the same string, [4mstr[24m
+[24;1H[K[7mPattern not found  (press RETURN)[27m[24;1H[K/[K[K[7mPattern not found  (press RETURN)[27m[24;1H[K:[K..[K/[Knn[Kuu[Kll[Kll[K[1;1HSTRTOK(3)                  Linux Programmer's Manual                 STRTOK(3)
+[2;1H
+[3;1H
+[4;1H
+[5;1H[1mNAME[0m
+[6;1H       strtok, strtok_r - extract tokens from strings
+[7;1H
+[8;1H[1mSYNOPSIS[0m
+[9;1H       [1m#include[0m [1m<string.h>[0m
+[10;1H
+[11;1H       [1mchar[0m [1m*strtok(char[0m [1m*[0m[4mstr[24m[1m,[0m [1mconst[0m [1mchar[0m [1m*[0m[4mdelim[24m[1m);[0m
+[12;1H
+[13;1H       [1mchar[0m [1m*strtok_r(char[0m [1m*[0m[4mstr[24m[1m,[0m [1mconst[0m [1mchar[0m [1m*[0m[4mdelim[24m[1m,[0m [1mchar[0m [1m**[0m[4msaveptr[24m[1m);[0m
+[14;1H
+[15;1H   Feature Test Macro Requirements for glibc (see [1mfeature_test_macros[0m(7)):
+[16;1H
+[17;1H       [1mstrtok_r[0m(): _SVID_SOURCE || _BSD_SOURCE || _POSIX_C_SOURCE >= 1 ||
+[18;1H       _XOPEN_SOURCE || _POSIX_SOURCE
+[19;1H
+[20;1H[1mDESCRIPTION[0m
+[21;1H       The [1mstrtok[0m() function parses a string into a sequence  of  tokens.   On
+[22;1H       the  first call to [1mstrtok[0m() the string to be parsed should be specified
+[23;1H       in [4mstr[24m.  In each subsequent call that should parse the same string, [4mstr[24m
+[24;1H[1;1HSTRTOK(3)                  Linux Programmer's Manual                 STRTOK(3)
+[2;1H
+[3;1H
+[4;1H
+[5;1H[1mNAME[0m
+[6;1H       strtok, strtok_r - extract tokens from strings
+[7;1H
+[8;1H[1mSYNOPSIS[0m
+[9;1H       [1m#include[0m [1m<string.h>[0m
+[10;1H
+[11;1H       [1mchar[0m [1m*strtok(char[0m [1m*[0m[4mstr[24m[1m,[0m [1mconst[0m [1mchar[0m [1m*[0m[4mdelim[24m[1m);[0m
+[12;1H
+[13;1H       [1mchar[0m [1m*strtok_r(char[0m [1m*[0m[4mstr[24m[1m,[0m [1mconst[0m [1mchar[0m [1m*[0m[4mdelim[24m[1m,[0m [1mchar[0m [1m**[0m[4msaveptr[24m[1m);[0m
+[14;1H
+[15;1H   Feature Test Macro Requirements for glibc (see [1mfeature_test_macros[0m(7)):
+[16;1H
+[17;1H       [1mstrtok_r[0m(): _SVID_SOURCE || _BSD_SOURCE || _POSIX_C_SOURCE >= 1 ||
+[18;1H       _XOPEN_SOURCE || _POSIX_SOURCE
+[19;1H
+[20;1H[1mDESCRIPTION[0m
+[21;1H       The [1mstrtok[0m() function parses a string into a sequence  of  tokens.   On
+[22;1H       the  first call to [1mstrtok[0m() the string to be parsed should be specified
+[23;1H       in [4mstr[24m.  In each subsequent call that should parse the same string, [4mstr[24m
+[24;1H...skipping...
+       Each  call  to  [1mstrtok[0m()  returns a pointer to a [7mnull[27m-terminated string
+       containing the next token.  This string does not include the delimiting
+       character.  If no more tokens are found, [1mstrtok[0m() returns NULL.
+
+       A sequence of two or more contiguous delimiter characters in the parsed
+       string is considered to be a single delimiter.  Delimiter characters at
+       the  start  or  end  of  the  string are ignored.  Put another way: the
+       tokens returned by [1mstrtok[0m() are always non-empty strings.
+
+       The [1mstrtok_r[0m() function is a reentrant version [1mstrtok[0m().   The  [4msaveptr[24m
+       argument  is  a pointer to a [4mchar[24m [4m*[24m variable that is used internally by
+       [1mstrtok_r[0m() in order to maintain context between successive  calls  that
+       parse the same string.
+
+       On  the  first call to [1mstrtok_r[0m(), [4mstr[24m should point to the string to be
+       parsed, and the value of [4msaveptr[24m is ignored.  In subsequent calls,  [4mstr[24m
+       should  be  NULL,  and  [4msaveptr[24m  should be unchanged since the previous
+       call.
+
+       Different strings may be parsed concurrently using sequences  of  calls
+       to [1mstrtok_r[0m() that specify different [4msaveptr[24m arguments.
+
+[1mRETURN[0m [1mVALUE[0m
+:[K[K/[K[K[7mPattern not found  (press RETURN)[27m[24;1H[K/[K[K[7mPattern not found  (press RETURN)[27m[24;1H[K/[K[K[7mPattern not found  (press RETURN)[27m[24;1H[K/[K[K[7mPattern not found  (press RETURN)[27m[24;1H[K/[K[K[7mPattern not found  (press RETURN)[27m[24;1H[K/[K[K[7mPattern not found  (press RETURN)[27m[24;1H[K[?1l>[?1049l[?1049h[?1h=STRTOK(3P)                 POSIX Programmer's Manual                STRTOK(3P)
+
+
+
+[1mPROLOG[0m
+       This  manual  page is part of the POSIX Programmer's Manual.  The Linux
+       implementation of this interface may differ (consult the  corresponding
+       Linux  manual page for details of Linux behavior), or the interface may
+       not be implemented on Linux.
+
+[1mNAME[0m
+       strtok, strtok_r - split string into tokens
+
+[1mSYNOPSIS[0m
+       [1m#include[0m [1m<string.h>[0m
+
+       [1mchar[0m [1m*strtok(char[0m [1m*restrict[0m [4ms1[24m[1m,[0m [1mconst[0m [1mchar[0m [1m*restrict[0m [4ms2[24m[1m);[0m
+
+
+       [1mchar[0m [1m*strtok_r(char[0m [1m*restrict[0m [4ms[24m[1m,[0m [1mconst[0m [1mchar[0m [1m*restrict[0m [4msep[24m[1m,[0m
+              [1mchar[0m [1m**restrict[0m [4mlasts[24m[1m);[0m
+
+
+:[K[K[?1l>[?1049lhercules[68]% l
+l: Command not found.
+hercules[69]% ls
+Makefile
+hercules[70]% cd ..
+hercules[71]% ll[Ks
+[0m[38;5;34m-hello[0m*           childParent2.cpp            dateex.cpp    hello2.cpp
+[38;5;27m2020[0m/             core.execCode.a049849.8970  [38;5;34mexecCode[0m*     hello3.cpp
+[38;5;34mchildParent[0m*      core.execCode.a049849.8972  execCode.cpp  orig.cpp
+[38;5;34mchildParent.cpp[0m*  core.execCode.a049849.8988  [38;5;34mhello[0m*        part2.cpp
+[38;5;34mchildParent2[0m*     [38;5;34mdate[0m*                       hello.cpp
+[mhercules[72]% cd 2020
+hercules[73]% ls
+Makefile
+hercules[74]% clear
+[H[2Jhercules[75]% cp /net/data/ftp/pub/class/330/Linux/Hilder_Exercise/Exercise/* .
+cp: omitting directory `/net/data/ftp/pub/class/330/Linux/Hilder_Exercise/Exercise/Answer'
+hercules[76]% l[Kls
+HALmod.cpp  HALmod.h  Makefile  main.cpp
+hercules[77]% make[K[K[K[KMakefile
+Makefile: Permission denied.
+hercules[78]% ls
+HALmod.cpp  HALmod.h  Makefile  main.cpp
+hercules[79]% ls -l
+total 16
+-rw------- 1 sharma3v csugrd 1907 Jan 24 15:44 HALmod.cpp
+-rw------- 1 sharma3v csugrd  494 Jan 24 15:44 HALmod.h
+-rw------- 1 sharma3v csugrd  572 Jan 24 15:44 Makefile
+-rw------- 1 sharma3v csugrd  226 Jan 24 15:44 main.cpp
+hercules[80]% chmod [Kd [K[K[K[K[Kchmod 611[K[K[K711 *>[K.cpp
+hercules[81]% chmod 711 *.cpp[K[K[Kh
+hercules[82]% chmod 711 *.h[K[K[K Makefile
+hercules[83]% ls
+[0m[38;5;34mHALmod.cpp[0m*  [38;5;34mHALmod.h[0m*  [38;5;34mMakefile[0m*  [38;5;34mmain.cpp[0m*
+[mhercules[84]% ls -l
+total 16
+-rwx--x--x 1 sharma3v csugrd 1907 Jan 24 15:44 [0m[38;5;34mHALmod.cpp[0m*
+-rwx--x--x 1 sharma3v csugrd  494 Jan 24 15:44 [38;5;34mHALmod.h[0m*
+-rwx--x--x 1 sharma3v csugrd  572 Jan 24 15:44 [38;5;34mMakefile[0m*
+-rwx--x--x 1 sharma3v csugrd  226 Jan 24 15:44 [38;5;34mmain.cpp[0m*
+[mhercules[85]% ls -l[Kchmod 711 Makefile[25G*.h[Kcpp[15Gls -l[K[KMakefile
+all: Command not found.
+main.o: Command not found.
+HALmod.o: Command not found.
+demo: Command not found.
+check: Command not found.
+HALshell> ./demo
+HALshell> ls
+HALshell> pwd
+HALshell> quit
+HALshell> q
+HALshell>  
+HALshell> c
+HALshell> shuto down
+
+HALshell: terminating ...
+clean: Command not found.
+hercules[86]% ls
+[0m[38;5;34mHALmod.cpp[0m*  [38;5;34mHALmod.h[0m*  [38;5;34mMakefile[0m*  [38;5;34mmain.cpp[0m*
+[mhercules[87]% make clean
+rm -f *.o demo
+hercules[88]% ls
+[0m[38;5;34mHALmod.cpp[0m*  [38;5;34mHALmod.h[0m*  [38;5;34mMakefile[0m*  [38;5;34mmain.cpp[0m*
+[mhercules[89]% clear[Kr
+[H[2Jhercules[90]% ls
+[0m[38;5;34mHALmod.cpp[0m*  [38;5;34mHALmod.h[0m*  [38;5;34mMakefile[0m*  [38;5;34mmain.cpp[0m*
+[mhercules[91]% ls 
+[0m[38;5;34mHALmod.cpp[0m*  [38;5;34mHALmod.h[0m*  [38;5;34mMakefile[0m*  [38;5;34mmain.cpp[0m*
+[mhercules[92]% cd ..
+hercules[93]% ls 
+[0m[38;5;34m-hello[0m*           childParent2.cpp            dateex.cpp    hello2.cpp
+[38;5;27m2020[0m/             core.execCode.a049849.8970  [38;5;34mexecCode[0m*     hello3.cpp
+[38;5;34mchildParent[0m*      core.execCode.a049849.8972  execCode.cpp  orig.cpp
+[38;5;34mchildParent.cpp[0m*  core.execCode.a049849.8988  [38;5;34mhello[0m*        part2.cpp
+[38;5;34mchildParent2[0m*     [38;5;34mdate[0m*                       hello.cpp
+[mhercules[94]% cat hatlmos[K[K[K[K[K[K[K[K[K[Kcd ..
+hercules[95]% l
+l: Command not found.
+hercules[96]% ;s[K[Kls
+[0m[38;5;27mlab1[0m/  [38;5;27mlab2[0m/  [38;5;27mlab3[0m/  [38;5;27mlab4[0m/
+[mhercules[97]% cd lab3[K2
+hercules[98]% ls
+[0m[38;5;27m2020[0m/       HALmod.h  Makefile  main.cpp  output            typescript
+HALmod.cpp  HALmod.o  [38;5;34mdemo[0m*     main.o    submissionScript
+[mhercules[99]% cd[Kat hal[K[K[KHALmod.cpp
+#include "HALmod.h"
+
+int GetCommand (string tokens [])
+{
+    string commandLine;
+    bool commandEntered;
+    int tokenCount;
+
+    do
+    {
+        cout << "HALshell> ";
+        while (1)
+        {
+            getline (cin, commandLine);
+            commandEntered = CheckForCommand ();
+            if (commandEntered)
+            {
+                break;
+            }
+           
+        }
+    } while (commandLine.length () == 0);
+
+    tokenCount = TokenizeCommandLine (tokens, commandLine);
+    
+    return tokenCount;
+}
+
+char ** ConvertToC (string tokens [], int tokenCount){ 
+    char ** words; 
+    words = ( char **) malloc ( sizeof ( char *) * tokenCount); 
+    int i; 
+    for(i =0; i < tokenCount; i++){ 
+    words[i]= strdup(tokens[i].c_str()); 
+    } 
+    return words; 
+}
+
+bool CleanUpCArray(char **cTokens, int tokenCount){
+    for (int i = 0; i < tokenCount; i++)
+    {
+        free(cTokens[i]);
+    }
+    delete[] cTokens;
+    return true;
+}
+
+void PrintReverse(char **cTokens, int tokenCount){
+
+    cout << "Reversed words : ";
+    for (int i = tokenCount - 1; i >= 0; i--)
+    {
+        cout << cTokens[i] << " ";
+    }
+    cout << endl;
+}
+
+int TokenizeCommandLine (string tokens [], string commandLine){
+
+    char *token [MAX_COMMAND_LINE_ARGUMENTS];
+    char *workCommandLine = new char [commandLine.length () + 1];
+    int i;
+    int tokenCount;
+
+    for (i = 0; i < MAX_COMMAND_LINE_ARGUMENTS; i ++)
+    {
+        tokens [i] = "";
+    }
+    strcpy (workCommandLine, commandLine.c_str ());
+    i = 0;
+    if ((token [i] = strtok (workCommandLine, " ")) != NULL)
+    {
+        i ++;
+        while ((token [i] = strtok (NULL, " ")) != NULL)
+        {
+            i ++;
+        }
+    }
+    tokenCount = i;
+
+    for (i = 0; i < tokenCount; i ++)
+    {
+        tokens [i] = token [i];
+    }
+
+    delete [] workCommandLine;
+
+    return tokenCount;
+}
+
+
+//Do not touch the below function
+bool CheckForCommand ()
+{
+    if (cullProcess)
+    {
+        cullProcess = 0;
+        cin.clear ();
+        cout << "\b\b  \b\b";
+        return false;
+    }
+
+    return true;
+}
+
+	
+//This is a very paired down version of Dr. Hilderman's function
+int ProcessCommand (string tokens [], int tokenCount)
+{
+    if (tokens [0] == "shutdown" || tokens [0] == "restart")
+    {
+    	if (tokenCount > 1)
+    	{
+       		cout << "HALshell: " << tokens [0] << " does not require any arguments" << endl;
+        	return 1;
+    	}
+    	cout << endl;
+    	cout << "HALshell: terminating ..." << endl;
+
+        return 0;
+        
+    }
+    else
+	return 1;
+}
+
+
+
+hercules[100]% ls
+[0m[38;5;27m2020[0m/       HALmod.h  Makefile  main.cpp  output            typescript
+HALmod.cpp  HALmod.o  [38;5;34mdemo[0m*     main.o    submissionScript
+[mhercules[101]% sht[K[K[Kexit[K[K[K[Klogout
+[H[2Jif: Expression Syntax.
+Connection to hercules.cs.uregina.ca closed.
+[archos:~/Desktop] kayvee% exit
+exit
+[1m[7m%[27m[1m[0m                                                                                ]7;file://archos/Users/kayvee/Desktop[0m[27m[24m[Jkayvee@archos Desktop % [K[?2004heexit[?2004l
+
+Script done on Fri Jan 24 16:01:18 2020

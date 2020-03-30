@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 1</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+	<script src="script.js"></script>
+
+    
+</head>
+<body>
+
+	<div class="wm-zoom-container my-zoom-1">
+		<div class="wm-zoom-box">
+			<!--<a id = "downloadTag" href="" download="">-->
+		<img id="b" src="image.png" class="wm-zoom-default-img" alt="Internet is down" data-hight-src="image.png" >
+		<!--</a>-->
+	<h4> Zoom Into Image by Hovering Mouse on it </h4>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	<br>
+	<h3> Enter Text below to convert it into Image </h3>
+	<h3> Click on the Image below to Download it </h3>
+
+	Enter text: <input type="text" id="myText" >
+	<canvas id="myCanvas" width="200" height="100" style="border:0px solid #d3d3d3;">
+	Your browser does not support the HTML5 canvas tag.</canvas>
+	<br>
+	<a id = "downloadTag" href="" download="">
+	<img id="textImage" src="image.png"  >
+	</a>
+		
+
+	<script type="text/javascript" src="script2.js"></script>
+	<script type="text/javascript" src="script3.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.my-zoom-1').WMZoom();
+			
+		});
+	</script>
+
+
+</body>
+</html> 
+

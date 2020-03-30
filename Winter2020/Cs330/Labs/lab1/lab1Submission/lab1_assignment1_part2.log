@@ -1,0 +1,79 @@
+Script started on Thu Jan 16 15:00:44 2020
+Script on hercules[21]% .mem[K[K[K/mem
+
+
+---------- main -------------------
+
+0xffffffffffff (999999999999999): Last address
+      0x400e4d (        4197965): Address etext
+      0x602084 (        6299780): Address edata
+      0x603960 (        6306144): Address end
+      0x400a8f (        4197007): Address of code for proc1
+      0x400b74 (        4197236): Address of code for proc2
+      0x6021c0 (        6300096): Address of uninitialized global variable g0
+      0x602074 (        6299764): Address of initialized   global variable g1
+      0x6021e0 (        6300128): Address of uninitialized global array    g2
+      0x602078 (        6299768): Address of initialized   global variable g3
+      0x603950 (        6306128): Address of uninitialized global variable g4
+     0x1f1f010 (       32632848): Address heap1 in heap space
+     0x1f1f030 (       32632880): Address heap2 in heap space
+0x7fffedeab1cc (140737184969164): Address of local variable lc0
+0x7fffedeab1c8 (140737184969160): Address of local variable lc1
+0x7fffedeab1c4 (140737184969156): Address of local variable lc2
+      0x603958 (        6306136): Address of local uninitialized static var ls0
+      0x60207c (        6299772): Address of local initialized   static var ls1
+Enter a positive integer: 5
+0x7fffedeab17c (140737184969084): Address of variable input during recursion
+0x7fffedeab14c (140737184969036): Address of variable input during recursion
+0x7fffedeab11c (140737184968988): Address of variable input during recursion
+0x7fffedeab0ec (140737184968940): Address of variable input during recursion
+0x7fffedeab0bc (140737184968892): Address of variable input during recursion
+0x7fffedeab08c (140737184968844): Address of variable input during recursion
+Factorial of 5 = 120
+
+
+------------ Factorial -----------------
+
+      0x400c8b (        4197515): Address of code for recurisveFactorial
+0x7fffedeab1ac (140737184969132): Address of local variable input
+Script on hercules[22]% ./mem
+
+
+---------- main -------------------
+
+0xffffffffffff (999999999999999): Last address
+      0x400e4d (        4197965): Address etext
+      0x602084 (        6299780): Address edata
+      0x603960 (        6306144): Address end
+      0x400a8f (        4197007): Address of code for proc1
+      0x400b74 (        4197236): Address of code for proc2
+      0x6021c0 (        6300096): Address of uninitialized global variable g0
+      0x602074 (        6299764): Address of initialized   global variable g1
+      0x6021e0 (        6300128): Address of uninitialized global array    g2
+      0x602078 (        6299768): Address of initialized   global variable g3
+      0x603950 (        6306128): Address of uninitialized global variable g4
+     0x1bbc010 (       29081616): Address heap1 in heap space
+     0x1bbc030 (       29081648): Address heap2 in heap space
+0x7ffc47e805dc (140721514874332): Address of local variable lc0
+0x7ffc47e805d8 (140721514874328): Address of local variable lc1
+0x7ffc47e805d4 (140721514874324): Address of local variable lc2
+      0x603958 (        6306136): Address of local uninitialized static var ls0
+      0x60207c (        6299772): Address of local initialized   static var ls1
+Enter a positive integer: 3
+0x7ffc47e8058c (140721514874252): Address of variable input during recursion
+0x7ffc47e8055c (140721514874204): Address of variable input during recursion
+0x7ffc47e8052c (140721514874156): Address of variable input during recursion
+0x7ffc47e804fc (140721514874108): Address of variable input during recursion
+Factorial of 3 = 6
+
+
+------------ Factorial -----------------
+
+      0x400c8b (        4197515): Address of code for recurisveFactorial
+0x7ffc47e805bc (140721514874300): Address of local variable input
+Script on hercules[23]% ls
+lab1.c  lab1_assignment1_part2  lab1_assignment1_test5  lab1_problem1.log  [0m[38;5;34mmem[0m*  memory_segments.cpp
+[mScript on hercules[24]% exit
+exit
+
+Script done on Thu Jan 16 15:01:02 2020

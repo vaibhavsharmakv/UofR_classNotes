@@ -1,0 +1,110 @@
+
+Define ​short-term scheduler and ​long-term scheduler​, and explain the main differences between them. ​(6 marks)
+Solution-  
+Long term scheduler or LTS is responsible for creating new processes and bringing them into the system. LTS main work is to create and move the jobs from "New" to "Ready" state. Whereas, the short term scheduler or STS is responsible for processing one of the jobs from "Ready" state to "Running" state. There are alot of processes availble in "Ready" state at a time and STS takes care of selecting one job and moving it to the "Running" state. 
+
+The number of processes present in the main memory at any given point of time is called degree of multi-programming. The long term scheduler controls the degree of multiprogramming and also selects a good combination of CPU bound and input/output bound processes. If LTS ends up bringing alot of CPU bound jobs, it will increase the CPU utilization and drop the throuhgput.
+
+
+Explain the concept of a context switch. ​(6 marks)
+Solution - 
+Conext switching is when the process in running state is saved and swaped by another process. 
+for example, if current running the process is p1 and p2 needs to run then processor will save the context of p1 and load the context of p2 into running state. Each and every time when the process is moving from one state to another, the context of the process will change. the minimum number of process required in context switching is two processes with an expection of "Round robin" which only uses one process. Context swictching time is the time it takes before the running process switched context with the next process.It is also consindered as overhead for the system. The context switching does take some time, so if the context of the process is more than context switching time will also increase which is undersireable. 
+
+Explain the terms ​at most once and ​exactly once​, and indicate how these terms relate 
+to remote procedure calls. (​ 6 marks)
+Solution - 
+These term are used to define how client interacts with the server in an event of crash or restart. After a server crash/restart during RPC, client tries to initiate a conversation. RPC uses different models/semantics to manage outages. At most one is when client sends a message to the server and recives a reply because then client knows server got atleast one message and then client sends another to be sure. whereas, excatly one is a best case scenario where client sends a request and multiple request a filtered for duplicates to execute only one request.The problem with excactly one request is the server might never recieve it due to crash/outage while cloent is sending a request.
+
+
+Identify and briefly explain each of the four major categories of benefits of
+multithreaded programming. (​ 6 marks)
+Solution -  
+	Responsivness - Multithreading allow program to continue running even when other programs are using the processors and blocking the resourse. It splits the work and reduces the time by which program gets executed as they can run parallely. 
+	Scalabilty - It is very easy to increase the work via either vertical scalability or horizontal scalibilty. mutliple threads are executed parallely and one thread can be divided among differed threads to executed seperatly. 
+	Cost effective - Context switching is very easy in multithreading processing. 
+	Using resources efficiently - Multithreading used message passing and Shared memory which allows it to create mutliple threads under space adress space.
+	
+
+Define ​coarse-grained multithreading and ​fine-grained multithreading​, and explain
+their differences. ​(6 marks)
+Solution - 
+	Coarse-grained multithreading - a switch only happens when the thread in execution causes a stall, thus wasting a clock cycle.
+		Advantages - 
+			No need for very fast thread-switching
+			Doesn’t slow down thread, since switches only when thread encounters a costly stall
+		Disadvantages - 
+			Since CPU issues instructions from 1 thread, when a stall occurs, the pipeline must be emptied or frozen
+			New thread must fill pipeline before instructions can complete
+	Fine-grained multithreading - switching among threads happens at each instruction, independently from the the fact that the thread instruction has caused a cache miss.
+		Advantages - 
+			Switches between threads on each instruction
+			Multiples threads interleaved
+		Disadvantages - 
+			Other threads executed when one thread stall
+			But slows down execution of individual threads
+
+Explain process starvation and how aging can be used to prevent it. (​ 6 marks)
+Solution - 
+	Starvation occurs when CPU is busy taking care of all the high priority task and all the low priority tasks never get their turn. Aging is used to prevent this as time is used to increase priority of a low priority task which is waiting from a long time. This makes sure that all the tasks are executed in a time manner else low priority task never get executed. 
+
+How does the dispatcher determine the order of thread execution in Windows? ​(6
+marks)
+Solution - 
+	In windows, Dispatch use a 32 level priority order where tasks are leveled from 1-32 according to their priority. Priorities are divided into two classes. variable class is from level 1-15 and then real factor class is from 16-31. Dispatch creates a queue of all the tasks in order of their priority and execute them one by one when there is a free resourse availble to complete the task.
+
+
+Define ​critical section​, and explain two general approaches for handling critical sections in operating systems. (​ 8 marks)
+Solution - 
+	when a code is sharing variables and resouses cocoruntely, Operating system needs to make sure they are not being accessed by anything other program while being used. The protected section/code/variable is called critical section. Two different aproaches to handle critical sections are:
+		- Preemptive Kernel - It allows a process to be preempted while running in kernel mode
+		- Non-Preemptive Kernel - It does not allow a process to be preempted. it must be finished before existing kernel mode.
+
+Describe the dining-philosophers problem, and explain how it relates to operating systems. (​ 6 marks)
+Solution - 
+	The scenario involves five philosophers sitting at a round table with a bowl of food and five chopsticks. Each chopstick sits between two adjacent philosophers. The philosophers are allowed to think and eat. Since two chopsticks are required for each philosopher to eat, and only five chopsticks exist at the table, no two adjacent philosophers may be eating at the same time. A scheduling problem arises as to who gets to eat at what time. This problem is similar to the problem of scheduling processes that require a limited number of resources.
+
+	It relates to operating system because the resourses are shared among different task. In a operating system, these philosophers tranlates into different threads and they can run into problem like deadlock.
+
+Define the ​two-phase locking​ protocol. (​ 6 marks)
+Solution - 
+Two-phase locking protocol uses two phases to lock and unlock a transaction. 
+	First phase - New locks are put on but locks cannot be unlocked. This is also known are expanding phase. 
+	Second phase - locks can be unlocked but cannot request new locks. This is alos known as shrinking phase. 
+
+	
+
+Describe how an adaptive mutex functions. (​ 6 marks)
+Solution - 
+If the shared data being accessed is already locked and the thread holding that lock is running on another CPU, the thread spins while waiting for the lock to be released, and the data to become available. If the thread holding the lock is not in the run state, the waiting thread sleeps until the lock becomes available. On a single processor system, spinlocks are not used and the waiting thread always sleeps until the lock becomes available
+
+Describe a scenario in which the use of a reader-writer lock is more appropriate than using another 
+synchronization tool, such as a semaphore. (​ 6 marks)
+Solution - 
+Reader-writed lock is more efficient when there are several readers because it allows a process that is only reading shared data to corcurrently access shared data with other readers. Reader-Writer locks outweights the other locks when state of process is known such as read only or read/write. 
+
+
+What is the difference between deadlock ​prevention and deadlock ​avoidance?​ ​(6 marks)
+Prevention:
+	• The system does not require additional a priori information regarding the overall potential use of each resource for each process.
+	• In order for the system to prevent the deadlock condition it does not need to know all the details of all resources in existence, available and requested.
+	• Resource allocation strategy for deadlock prevention is conservative, it under commits the resources.
+	• All resources are requested at once.
+Avoidance:
+	• The goal for deadlock avoidance is to the system must not enter an unsafe state.
+	• Deadlock avoidance is often impossible to implement.
+	• Needs to be manipulated until at least one safe path is found.
+	• There is no preemption.
+
+
+Describe a ​wait-for graph​, and explain how it detects deadlock. (​ 6 marks) 
+Solution - 
+
+If all resources have only a single instance, then we can define a deadlock-detection algorithm that uses a variant of the resource- allocation graph, called a wait-for graph. We obtain this graph from the resource-allocation graph by removing the resource nodes and collapsing the appropriate edges. To detect deadlocks, the system needs to maintain the wait-for graph and periodically invoke an algorithm that searches for a cycle in the graph.
+
+
+Describe how a safe state ensures that deadlock will be avoided.​ (6 marks)
+Solution 
+A safe state ensures that there is a sequence of processes to finish their program execution. Deadlock is not possible while the system is in a safe state. However, if a system goes from a safe state to an unsafe state, deadlock is possible. One technique for avoiding deadlock is to ensure that the system always stays in a safe state. This can be done by only assigning a resource as long as it maintains the system in a safe state.
+
+

@@ -1,0 +1,40 @@
+ Topics
+
+ - What is RGB ?
+ - What is HSB ?
+ - difference/similarity/ how and why ?
+
+ - What is Sampling ?
+ - What is Quantization ?
+ - difference/similarity/ how and why ?
+
+ - What is Compression ?
+ - What is Entropy/Surprise ?
+ - difference/similarity/ how and why ?
+  - Why can entropy be considered positively? What does it have to do with compression?
+
+
+ - What is bits/bytes/utf-8 ?
+ - What is greyscal/black and white in bits ?
+ - difference/similarity/ how and why ?
+ - Describe the relationship between Unicode and UTF-8. Why is UTF-8 popular? Include an example that describes encoding and decoding.
+
+ - Vectors/Bitmaps
+ - Curves / Characters
+ - Colors
+
+
+
+ Question
+
+ Describe additive and subtractive colour models. Identify an example of each.
+ What is a pixel? What does it have to do with aliasing?
+ Is a vector graphics format always preferred? Over what? Why or why not?
+
+
+
+ code:
+
+ if(mouseIsPressed){
+
+ }

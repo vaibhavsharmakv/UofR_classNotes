@@ -42,6 +42,38 @@ Unix example of system call --- not gonna come in midterm
 MCQ - command interpreter - modules
 
 
+3-----------------------------------------------
+MCQ 
+- D - stack 
+- A - process information
+- D - All of the abhove 
+
+
+
+
+More 
+- true/false ? missed this one
+- B - rendezous
+- False 
+
+More
+- C - because the host have to use non reserved ports
+- C - shared memory segments 
+
+
+4---Missed 
+5-----------
+make sure you know what command do what ?
+example -> elementry system calls page
+
+6-------------------
+
+
+
+
+
+
+
 
 
 
