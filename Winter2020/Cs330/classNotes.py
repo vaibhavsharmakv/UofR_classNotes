@@ -66,9 +66,30 @@ More
 make sure you know what command do what ?
 example -> elementry system calls page
 
-6-------------------
+FileSystem ANswers 
+-------------------
+b - two level Internal 
+true
+username, filename
+true
+superuser
+owner, group, universe
 
-
+---------------------
+FileSystmem Implementation
+- d - all of the abhove 
+- true
+- device drivers and interupt handlers
+- false
+- d-  pointer to entry to preprocess file system
+- a copy of the file control block of each open file
+- d 
+- absense of FAT
+- false
+- false
+- B
+- B
+- D
 
 
 
