@@ -1,3 +1,4 @@
+
 Purpose 1 - Defining the enviorment - user friendly 
 purpose 2 - Resourse allocation
 purpose 3 - Control program - to prevent errors & control I/O
@@ -91,13 +92,32 @@ FileSystmem Implementation
 - B
 - D
 
+-----------------
+Security 
+- false
+- sniiffing
+- true
+- pentration testing
 
+Protection 
+- capabilty list vs access list 
+	- capability is what operation an object can do 
+	- acces is whhat can be read/write by object 
+- contemnt of the stack can be modified by any other function using the shared stack 
+- false - they determine how rather than what 
+- true 
+- false
+- principle of least privilige 
+- false
 
-
-
-
-
-
+- domain 
+- false 
+- false 
+- false
+- true
+- true 
+- false - quite the opposite
+- true 
 
 
 

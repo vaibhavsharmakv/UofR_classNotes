@@ -1,0 +1,183 @@
+What are the advantages of using dynamic loading? (​ 6 marks)
+Solution - 
+	Dynamic loading is using the opertaing system resouses smartly and not load all the program data every time. Dynamic loading helps only loading the data and routines which are required currently and save the rest on a secondary drive. whenever some data or routine is required by the primary disk, operating system gives that routine power and move it to the main memory. Dynamic loading is designed in such a way the programmers can implements the functionality in the routines which require no additional work on the OS level. 
+	One of the main advantage of Dynamic loading is that it helps make routine's fast and utilize memory space more efficiently. Operating system only loads the essential data on the disk and keeps realocates the non-essential data at another disk.
+
+Explain the basic method for implementing paging. ​(8 marks)
+
+	Paging is similar to segmentaiton when it comes to memory managment. it allows the physcial address of a process/task to not adjoin each other. One of the main advantages of Paging is is avoiding external fragmentation. 
+
+	In the process of Paging, logical memory is divided into blocks of equal size which are reffered as pages. It also require frames which are made from equal size blocks of memory. Once operating system have pages and frames then it loads the frame into any available pages on the main physcial memory. 
+
+	getting corupt and loss of data is very common if done incorrectly, Pagination avoids this by mapping page number and page offset. Using the correct page number with a correct frame number from page table makes surw that each logical adress maps correctly to the right physical adress.
+
+
+Briefly describe the segmentation memory management scheme. How does it differ
+from the paging memory management scheme in terms of the user’s view of
+memory?
+
+
+Paging is a memory mamagement scheme which allows processed to be noncontiguous which is very similar to segmentation. Segmentation enables memory allocation to be a replica of user's point of view of memory allocation. Where pagination use pages and frames, segmenation is made up of segments which are further made up of base and length. 
+
+One of the main difference between segmentation and pagination is that segmentation makes segments which replicates the user's point of view of the memory. Physical is formulated using the base and length given by the user when accesing momory or memory segments. This process is very different in pagination where user only provides one address and pagination automatically finds out page number and offset. 
+
+Segmentaion provised some back-end information to the programmer on how it's allocating and re-alocating the memory where as paginations complety keeps it abstract from the programmer. 
+
+
+Explain the distinction between a demand-paging system and a paging system with
+swapping. (​ 8 m
+
+Solution - 
+
+Demand paging system and a paging system with swapping are both part of pagination memory management scheme. Demand paging system , as the name states only loads the pages/offset which are demanded by the process or the block of memory. where as on the other hand, Pagination with swapping swaps out the entire process/memory block from the secondary to the main. 
+
+The demand paging system only loads the essential pages which allow other users to access the pages which the current process is not using. Swapping on the other hand takes the whole prcoess or block memory even when all the data is not neccesary. this stops other users to access the data from the same memory or page. 
+
+
+How does the second-chance algorithm for page replacement differ from the FIFO
+page replacement algorithm? ​(8 marks)
+
+Solution - 
+
+
+Page replacement algorithm as the name might suggest replaces the the pages from the main memory to the secondry memory when space for a new page is required and the one that's already there needs to go. 
+
+FIFO algorithm is a queue based algorithm which uses first in first out implementation. when a new frame needs to come into the memory, the frame that is curretntly in the system from the longest time is kicked out to make space for the new frame. 
+Second-chance algorithm is very similar to FIFO and is an advaced version where Second chance algorithms looks at the all the frames and check if they have been recently used by their reference bit which is marked 1 for yes and 0 for no. If a frame has been recently used then it's not kicked out. this algorithm focuses on kicking out the frame which has not been used the longest. 
+
+Explain how copy-on-write operates. (8 marks)
+Solution - 
+
+Copy-on-write used to the pages as copy on writes when a child process makes a change to page copied from the parent process. 
+this is memory management technique used in windows xp and many more to save time and space when child process is created. On creation of the child process from the parent process, copy-on-write stops it from copying all the pages from parent process as they all won't be used. Whenever a child process makes a change to a page which has been copied from the parent process then it has to make a copy of the page it's changing and cannot make a direct change in the parent process page. this means that copying all the pages from the parent process is not efficient as they might not be used. This copy-on-write allows child process to only makes the copy of the pages which are going to changed or edited. 
+
+
+If you were creating an operating system to handle files, what are the six basic file
+operations that you should implement? ​(
+
+Solution - 
+
+The six basic operations to implement for handling files in operating system are as following 
+
+create file -> while this implementation, none of the other functions will be much of use unless files were imported. 
+
+Read file -> one of the essential functions to allow processes to be able to open and read a file
+
+Write file -> write file is key function to ensure processes can also make changes in the file when neccesary 
+
+Delete file -> this will alow deleting the files by using thir adress. important to be able to use memory efficiently
+
+Truncate file -> truncating a file is important when we dont want to delete the file but delete the content 
+
+Move file -> move file will allow operating system to re-arrange, copy files in the system 
+
+
+To create a new file, an application program calls on the logical file system. Describe
+the steps the logical file system takes to create a file
+
+Solution - 
+
+In general, to create a file, we will need the name of the file. Space needs to be found in the current file structure for the new file when it is created. On creating the fie, the file name and attributes also need to be added to the file directory.  
+
+When creating a new file, we need to save the name of the file and find space in the current file structure for the new file. this can be done by allocating a file block system in the logical file system after the request of new file. The file directory then gets updated with the new name and new file system block which ultimatley written back to the disk.
+The allocation of file control block is dependent on file system and it can be either done intially or when required.
+
+
+How is a hash table superior to a simple linear list structure? What issue must be
+handled by hash table implementation? (​ 
+Solution - 
+
+Hash table is superior to linear list structure as it is faster. Both linear and hash table functions are part of dat structures family where linear structure as the name suggest is linear in design. The simple creates some problem when introduced to scalibilty as it gets slower and slower with bigger data size. The linear data structure requires alot of data searches to be able to perform any functionality. for example to add a new file, a linear search is perform to make sure another file with same name doesnt already exist. Similar, the same linear search is required when updating or deleting a file. This problem was solved by Hash tables are they store the name of  the file as interger hash value which is then mapped to the name of the file. This makes it alot faster to perform same functionality. 
+
+One of the major issues in hash table implementation is Collisions. Depending on the algorithm, it may be possible that two different file may get hashed to the same integer key which results in corrput data.
+
+
+What are the factors influencing the selection of a disk-scheduling algorithm? ​(8
+
+Solution - 
+
+When selecting a disk-scheduling alorithm, Scalability and request type are most influencing factors. Most of the times, an operating system use multiple disk scheudling algorithms at the same time to produce maximum efficiency. 
+
+The difference between different tyoe of disk scheduling alrorithm is marginal when a sample size of request is very small but thhis difference change quickly as the number of requests increase. 
+
+The type of request is similarly very important as different type of data may produce different efficiency from same algorithms. If data is linked together than disk head will perform mutliple head moments else it's  not require. Many operating systems use different type of disk-scheduling algorithm for diffrent type of data at the same time.
+
+
+11. Explain the disadvantage(s) of the SSTF scheduling algorithm. (​ 8 marks)
+
+Solution - 
+SSTF is one of the disk scheduling algorithms which determines which job will be selcted to run from work queue. SSTF stands for shortest seek time first. There are many disavanatges of using SSTF where one of them is process startvationa and issues caused by the algrotihm when changing disk head. SSTF chooses the request based on shortest seek time which means if the current request is 80 and next request is at 100 and 70 then it will choose 70 to be the next request. The way this can lean to starvation is if a a process is very far from the current header then it may never get it's turn unless all the other shortest processes are dealt with first. 
+
+12. Explain the concepts of a ​bus and a ​daisy chain​. Indicate how these concepts are related.​ (8 marks)
+
+Solution - 
+
+The concept of bus is based upon communication between devices locally. This means that all the connected devcies like keyboard and printers require a way to communicate with each other and buses are used to fulfil these requirements. PCI bus and expansion bus are the two type of buses used where PCI is used for fast communication devcies and expansion bus is used for slow communication devices. Most of the devices in bus system are connected by a wire and it's very commonly used.
+
+Daisy chain is a concept of communicatin as well where all the devcies are connected together in a series with a help of cables and ports. 
+
+The intersection between Bus and daisy chain is communication of devcies and how they talk to each other. Daisy chain is prefered when series of devcies communicating keeps expanding as it's very easy to scale as compared to busses.
+
+13. What are the three reasons that buffering is performed? ​(6 marks)
+Solution - 
+
+buffering works as a bridge between two devcies or two networks which makes sure the sending party is able to send all the data to recieving party properly. The different reasons to use buffering are :
+
+Different speed between sending and recieving client. When data is transfered across different devcies, many times the bandwidth is different buffering works as a container which holds all the data and then give it to the client in correct order to avoid multiple writes. 
+
+Difference is data transfer size between client and server specially when on a network requires buffering as to make up for the badnwidth difference 
+
+To ensure data Integrity, Bufferring plays in important role to make sure data recived is same as the data sent. Operating system uses kernel buffers to ensure correct data is being copies.
+
+Why is it important to distinguish between mechanisms of protection and policies of
+protection? ​(
+
+Solution - 
+Mechanism of protection usually implies the way we can protect whereas the policies of protection implies what needs to be done.
+
+It is improtant to distinguish between mechanishm of protection and policies is the seperation of these two provide felixibilty in the system. If these are well seperated then changes in one only affect few changes in the other where as if they are vaguley defined then it requires alot more work to make changed and identify regression defects.
+
+Mechanisms can be nontechnical, such as requiring proof of identity before changing a password; in fact, policies often require some procedural mechanisms that technology cannot enforce. Policies on the other hand may be presented mathematically, as a list of allowed secure and nonsecure states. 
+
+What is an ​access matrix​, and how can it be implemented? ​
+Solution - 
+
+Access Matrix is used for the implemenation of Protection model in operating system. To implement access control using access control matrix, we look at a large sparse matrix as most of the users will have null access. This can represented by using either column matrix or row matrix. Each entry in the matrix consist of a set of access rights.
+The entry access (i,j) defines the set of operation that a process, executing in a domain Di can invoke an object of Oj. It must be ensured that a process executing in domain Di can access only these objects specified to the row i. Here rows work with domain under user, process and procedure and columns work with objects under resourses. 
+
+
+
+How does a v​irus​ differ from a ​worm?​ ​(4 marks)
+Solution - 
+
+Worm differs from virus as they rely on computer networks to spread where as virus uses executables. Worms are standalone programs which can travel from one machine to other but virus requires host program or human help. Being a stand alone application help worm self-propagate from an infected user's computer to other computers. 
+Virus does not use computer networks and rely on copying or installation from executables. Being on network allows worm to spread more agressively as compared to a virus. 
+
+
+
+What is the difference between symmetric encryption and asymmetric encryption?​ 
+
+Solution - 
+Symmetric encruption is a type of encryption where only one key is used to encypt and decrypt. the same key which encrupts the data is then sent to the other party to decrpyt it. Asymteric encruption is a type of encryption where keys are used in pair as public and private key. the public key is used to encrypt data and private key is used to decrypt data. Symetric encruption is an old techniquie alos defered as DES which is not used anymore becaused it's easily decrypted where as AES is widely used at the moment and a relativley new algorithm. Asymmetric encryption was introduced to complement the inherent problem of the need to share the key in symmetrical encryption model, eliminating the need to share the key by using a pair of public-private keys. Hence, the extra complication and security makes Asymmetric encryption take relatively more time than the symmetric encryption.
+
+What are the two main varieties of authentication algorithms?
+Solution - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
